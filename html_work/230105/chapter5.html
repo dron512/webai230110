@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+        *{
+            font-family: 'Seymour One','궁서',sans-serif;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{ font-family: sans-serif; }
+        li{ list-style: none; }
+        a{ text-decoration: none;}
+        img { border: 0; }
+        #wrap{
+            width: 500px;
+            margin: 0 auto;
+            border: 1px solid black;
+        }
+        div{
+            margin: 0.2rem;
+        }
+        #main_header{
+            border: 1px solid black;
+
+            height: 150px;
+            position: relative;
+        }
+        #title{
+            position: absolute;
+            top: 1rem;
+            left: 0.5rem;
+            border: 1px solid black;
+        }
+        #gnb_navigation{
+            right: 0;
+            top: 0.5rem;
+            position: absolute;
+            border: 1px solid black;
+        }
+        #lnb_navigation{
+            position: absolute;
+            bottom: 0.5rem;
+            right: 0;
+            border: 1px solid black;
+        }
+        #content{
+            border: 1px solid black;
+        }
+        #main_footer{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="main_header">
+            <div id="title">
+                <h1>title</h1>
+                <h2>mh portpolio</h2>
+            </div>
+            <div id="gnb_navigation">
+                <ul>
+                    <li>web</li>
+                    <li>mobile</li>
+                    <li>game</li>
+                    <li>simulation</li>
+                </ul>
+            </div>
+            <div id="lnb_navigation">
+                <ul>
+                    <li>one</li>
+                    <li>two</li>
+                    <li>three</li>
+                    <li>four</li>
+                    <li>five</li>
+                </ul>
+            </div>
+        </div>
+        <div id="content">
+            <div id="section">
+                <h1>section</h1>
+            </div>
+            <div id="">
+                <h1>aside</h1>
+            </div>
+        </div>
+
+        <div id="main_footer">
+            <h1>footer</h1>
+        </div>
+    </div>
+</body>
+
+</html>

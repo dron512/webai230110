@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            /* reset */
+            font-family: 'Rowdies', 'Noto Sans KR', sans-serif, cursive;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        #App{
+            /* 넓이는 안줘도 100% */
+            display: flex;  /* 한 행으로 만들겠다 */
+            align-items: center;    /* 세로 중간 정렬*/
+            justify-content: center; /* 가로 중간 정렬*/
+            min-height: 100vh;  /* 최소 높이 100% */
+            background-color: #ccc; /* 색깔 회색 */
+        }
+        h1{
+            text-align: center;
+        }
+        ul{
+            overflow: hidden;
+        }
+        li{
+            font-size: 2rem;
+            list-style: none;
+            float: left;
+            border: 1px solid black;
+        }
+        li:first-child{
+            border-radius: 1rem 0 0 1rem;
+        }
+        li:last-child{
+            border-radius: 0 1rem 1rem 0;
+        }
+        a{
+            color: black;
+            display: inline-block;
+            padding: 0.5rem;
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: black;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div id="App">
+        <div>
+            <h1>테스트</h1>
+            <!-- 
+                가로 나오는 방법
+                1. display : inline-block
+                2. float : left
+            -->
+            <ul>
+                <li><a href="#">one</a></li>
+                <li><a href="#">two</a></li>
+                <li><a href="#">three</a></li>
+                <li><a href="#">four</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

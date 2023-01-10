@@ -1,0 +1,7 @@
+{
+    "name":"홍길동",
+    "age":"30",
+    "height":"170",
+    "host":"localhost",
+    "port":"3306"
+}

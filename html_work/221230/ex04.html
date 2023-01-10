@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            border: 1px solid black;
+            color: red;
+            font-size: 2rem;
+        }
+        h1{
+            color: rgb(103, 108, 55);
+        }
+        col{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: blue;">table</h1>
+    <table>
+        <caption>Caption</caption>
+        <colgroup>
+            <col span="2"/>
+            <col style="background: blue;"/>
+        </colgroup>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+        </tr>
+        <tr>
+            <td colspan="2">Data1</td>
+            <td rowspan="2">Data1</td>
+        </tr>
+        <tr>
+            <td>Data2</td>
+            <td>Data2</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

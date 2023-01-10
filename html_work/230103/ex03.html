@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            transition-duration: 1s;
+        }
+        h1:active+div{
+            display: none;
+        }
+        h1:hover+div{
+            color: blue;
+            font-size: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>눌러보거나올려보세요</h1>
+    <div>
+        <img src="../images/img100.jpg" width="200" alt="">
+        <p>Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Sed hic quisquam deleniti numquam,
+            dignissimos similique molestiae soluta eos nihil
+            illo saepe doloremque dolores repellendus asperiores,
+            distinctio inventore repudiandae recusandae
+            provident.</p>
+    </div>
+</body>
+
+</html>

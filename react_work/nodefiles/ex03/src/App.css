@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  min-width: 20rem;
+  width: 25rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.message-container{
+  font-size: 30px;
+  font-style: italic;
+  color: red;
+}
+
+.title{
+  font-size: 4rem;
+}
+.primary {
+  overflow: auto;
+  scroll-snap-type: both mandatory;
+  height: 80vh;
+}
+table {
+  border-collapse: collapse;
+  border: 0;
+}
+th,
+td {
+  border: 1px solid #aaa;
+  background-clip: padding-box;
+  scroll-snap-align: start;
+}
+thead {
+  position: relative;
+}
+th,
+td {
+  padding: 0.6rem;
+  min-width: 6rem;
+  text-align: left;
+  margin: 0;
+}
+thead th {
+  position: sticky;
+  top: 0;
+  background-clip: padding-box;
+}
+thead th.pin {
+  left: 0;
+  z-index: 1001;
+  border-left: 0;
+}
+tbody th {
+  background-clip: padding-box;
+  border-left: 0;
+}
+tbody {
+  z-index: 10;
+  position: relative;
+}
+tbody th {
+  position: sticky;
+  left: 0;
+}
+thead th,
+tbody th {
+  background-color: #f8f8f8;
+}

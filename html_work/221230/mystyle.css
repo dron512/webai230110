@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#abc{
+    color: blue;
+}
+.aaa{
+    color: #00ff00;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'BMJUA';
+    color: red;
+}
+p{
+    font-family: 'BMJUA';
+}
+
+select{
+    height: 2rem;
+    font-family: 'BMJUA';
+    font-size: 1.5rem;
+    border: #00ff00 1px solid;
+    text-shadow: #27c927;
+}

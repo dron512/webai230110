@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <style>
+        /* *{
+            color: red;
+        } */
+    </style>
+    <script>
+        $('document').ready(function () {
+            $('*').css('color', 'red');
+        });
+        function doA(){
+            $('*').css('color', 'blue');
+        }
+        function doB(){
+            $('*').css('border', '5px solid black');
+        }
+    </script>
+</head>
+
+<body>
+    <h1 onclick="doB()">h1</h1>
+    <p onclick="doA()">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae perferendis aperiam soluta eum excepturi repellat
+        illo maiores, quia quam, animi officia in recusandae unde obcaecati. Quos enim incidunt asperiores nulla.
+    </p>
+</body>
+
+</html>

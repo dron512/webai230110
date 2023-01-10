@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            counter-increment: aa;
+            text-decoration: none;
+        }
+        a:visited{
+            color: red;
+        }
+        a:link::after{
+            content: " " counter(aa) "--" attr(aa);
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="http://www.naver.com">네이버</a></h1>
+    <h1><a href="http://www.naver.com">네이버</a></h1>
+    <h1>
+        <a href="http://www.yahoo.com" aa="asdf">yahoo</a>
+        <a href="http://www.yahoo.com" aa="bbbb">yahoo</a>
+        <a href="http://www.yahoo.com" aa="ccc"></a>yahoo</a>
+    </h1>
+</body>
+</html>

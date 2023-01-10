@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            position: relative;
+            background-color: aqua;
+        }
+        #gp1{
+            right: 0;
+            position: absolute;
+            height: 150px;
+            background-color: #ddd;
+        }
+        #c1{
+            display: inline-block;
+            margin-top: 60px;
+            height: 40px;
+            line-height: 40px;
+            background-color: red;
+            overflow: hidden;
+        }
+        #c1 > li {
+            padding: 0 25px;
+            list-style: none;
+            color: white;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="gp1">
+        <div id="p1">
+            <ul id="c1">
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+                <li>four</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

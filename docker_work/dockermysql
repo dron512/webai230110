@@ -1,0 +1,26 @@
+docker-compose up -d
+
+https://www.daleseo.com/docker-compose/
+
+도커 mysql 설치 순서
+
+https://poiemaweb.com/docker-mysql
+
+docker run --name mysql-container -e MYSQL_ROOT_PASSWORD=<password> -d -p 3306:3306 mysql:latest
+
+CREATE DATABASE mydb
+CHARACTER SET utf8mb4 
+COLLATE utf8mb4_unicode_ci;
+
+도커 tomcat 설치 순서
+https://shanepark.tistory.com/307
+
+#백그라운드 실행빼고 실행
+docker run --name tomcat -p 8080:8080 tomcat:9.0 
+docker start tomcat # 만약에 백그라운드 실행 안했으면
+docker exec -it tomcat /bin/bash
+
+wget https://get.jenkins.io/war-stable/2.375.1/jenkins.war
+
+http://13.125.149.58:8080/jenkins/login?from=%2Fjenkins%2F
+

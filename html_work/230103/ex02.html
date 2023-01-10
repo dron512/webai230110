@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type=checkbox]{
+            /* display: none; */
+        }
+        h1:hover+p{
+            font-size:2rem;
+        }
+        h1:hover~p{
+            background-color: aqua;
+        }
+        label{
+            background-color: orange;
+            padding: 1rem;
+            border-radius: 0.5rem;
+        }
+        input:checked+label{
+            background-color: black;
+            color: white;
+        }
+        input:checked~p{
+            padding: 2rem;
+        }
+        #input1p{
+            display: none;
+        }
+        #input1:checked~p{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Header-1</h1>
+    <input id="input" type="checkbox">
+    <label for="input">input</label>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus numquam, molestias id ipsa dolores sequi omnis rerum, dignissimos ipsam tempora quasi. Sunt sequi accusantium quo quas dolor illum eligendi fugit.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus numquam, molestias id ipsa dolores sequi omnis rerum, dignissimos ipsam tempora quasi. Sunt sequi accusantium quo quas dolor illum eligendi fugit.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus numquam, molestias id ipsa dolores sequi omnis rerum, dignissimos ipsam tempora quasi. Sunt sequi accusantium quo quas dolor illum eligendi fugit.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus numquam, molestias id ipsa dolores sequi omnis rerum, dignissimos ipsam tempora quasi. Sunt sequi accusantium quo quas dolor illum eligendi fugit.</p>
+    <input id="input1" type="checkbox">
+    <label for="input1">input</label>
+    <p id="input1p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio debitis officiis assumenda amet quae quaerat ad cumque accusantium fuga! Quasi quis excepturi impedit vero unde quae necessitatibus quidem officia laboriosam.</p>
+</body>
+</html>

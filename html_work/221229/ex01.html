@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>타이틀</title>
+    <style>
+        .a{
+            color: aqua;
+        }
+        #b{
+            width: 400px;
+        }
+        div{
+            background-color: blue;
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+    <script>
+        function doA(){
+            alert('누름');
+            let img = document.getElementById('b');
+            img.setAttribute('style','width:300px');
+            var combined = Object.assign({},{"one":"1","two":"2"})
+            alert(combined.one)
+            alert(combined.two)
+            let test = {...combined,"three":"3"}
+            alert(test.one)
+            alert(test.three)
+        }
+    </script>
+</head>
+<body> 
+    <!-- 
+        html 골격
+        css 꾸미기
+        javascript 이벤트 
+    -->
+    <h1 class="a">제목</h1>
+    <img id="b" src="pas_0.png" alt="img">
+    <div onclick="doA();">
+    </div>
+</body>
+</html>

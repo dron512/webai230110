@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            min-width: 760px;
+        }
+        input{
+            display: none;
+        }
+        div:nth-of-type(2){
+            display: none;
+        }
+        div:nth-of-type(3){
+            display: none;
+        }
+        input#tab1:checked ~ div:nth-of-type(2){
+            display: block;
+        }
+        input#tab2:checked ~ div:nth-of-type(3){
+            display: block;
+        }
+        div.buttons>label{
+            cursor: pointer;
+            border: 1px solid black;
+            padding: 0.5em 1em;
+            display: inline-block;
+            margin: 0rem 1rem;
+            background-color: #c9c9c9;
+            opacity: 0.5;
+        }
+        input#tab1:checked ~ div.buttons>label:nth-of-type(1){
+            opacity: 1;
+        }
+        input#tab2:checked ~ div.buttons>label:nth-of-type(2){
+            opacity: 1;
+        }
+        #divTab1{ display: hidden; }
+        #divTab1 > h1{ float: left;  width: 150px; }
+        #divTab1 > div{ float: left; width: 100%; margin-right: -200px;}
+        #divTab1 > div > p{ padding-right: 200px;}
+        #divTab2{ overflow: hidden; }
+        #divTab2 > h1{ float: left; width: 150px; }
+        #divTab2 > div{ float: left; width: 100%;  margin-right: -200px;}
+        #divTab2 > div > p{ padding-right: 200px;}
+
+    </style>
+</head>
+<body>
+    <input type="radio" name="tab" id="tab1" checked>
+    <input type="radio" name="tab" id="tab2">
+    <div class="buttons">
+        <label for="tab1">tab1</label>
+        <label for="tab2">tab2</label>
+    </div>
+    <div id="divTab1">
+        <h1>TAB1</h1>
+        <div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam quod omnis maiores sit deleniti ducimus accusantium autem reiciendis ratione possimus ad hic labore illo porro, incidunt in dolorum corporis vel?</p>
+        </div>
+    </div>
+    <div id="divTab2">
+        <h1>TAB2</h1>
+        <div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam quod omnis maiores sit deleniti ducimus accusantium autem reiciendis ratione possimus ad hic labore illo porro, incidunt in dolorum corporis vel?</p>
+        </div>
+    </div>
+</body>
+</html>

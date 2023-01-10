@@ -1,0 +1,17 @@
+점프투파이썬
+https://wikidocs.net/4307
+
+pyqt5
+https://wikidocs.net/22023
+
+qtDesign pyqt5
+https://wikidocs.net/35479
+
+점프투플라스크
+https://wikidocs.net/book/4542
+
+딥러닝자연어처리입문
+https://wikidocs.net/book/2155
+
+혼자공부하는머신러닝딥러닝
+https://github.com/rickiepark/hg-mldl

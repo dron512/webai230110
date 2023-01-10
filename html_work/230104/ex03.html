@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+        .red {
+            left: 30px;
+            top:30px;
+            background-color: red;
+            /* z-index: 100; */
+        }
+        .green{
+            left: 60px;
+            top: 60px;
+            background-color: green;
+            /* z-index: 10; */
+        }
+        .blue{
+            left: 90px;
+            top: 90px;
+            background-color: blue;
+            /* z-index: 1; */
+        }
+        body > div{
+            height: 100px;
+            position: relative;
+
+            overflow: hidden;
+
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>div 시작</h1>
+    <div>
+        <div class="box red"></div>
+        <div class="box green"></div>
+        <div class="box blue"></div>
+    </div>
+    <h1>div 끝</h1>
+</body>
+</html>
