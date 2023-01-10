@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Expires" content="Mon, 06 Jan 1990 00:00:01 GMT">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    오디오
+    {% print(filename) %}
+    <audio controls src="{% print(filename) %}">
+        오디오
+    </audio>
+    <form action="make" method="post">
+        <input type="text" name="text" id="">
+        <input type="submit" value="전송">
+    </form>
+</body>
+
+</html>
