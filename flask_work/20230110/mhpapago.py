@@ -9,7 +9,6 @@ from faker  import Faker
 def makePapago(text):
     faker = Faker()
     name = faker.name().replace(" ","")
-    print(name)
 
     client_id = "O8au87yavMgyra8zcqJ9" # 개발자센터에서 발급받은 Client ID 값
     client_secret = "IUpn0_gEIg" # 개발자센터에서 발급받은 Client Secret 값
@@ -31,7 +30,6 @@ def makePapago(text):
         print("Error Code:" + rescode)
 
     tts = gTTS(text=text,lang='ko',slow=True)
-    print(text)
     tts.save(f'20230110/static/{name}.mp3')
     import time
     time.sleep(1)
