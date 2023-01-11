@@ -11,7 +11,7 @@ def makePapago(text):
     name = faker.name().replace(" ","")
 
     client_id = "O8au87yavMgyra8zcqJ9" # 개발자센터에서 발급받은 Client ID 값
-    client_secret = "" # 개발자센터에서 발급받은 Client Secret 값
+    client_secret = "IUpn0_gEIg" # 개발자센터에서 발급받은 Client Secret 값
     encText = urllib.parse.quote(text)
     data = "source=ko&target=en&text=" + encText
     url = "https://openapi.naver.com/v1/papago/n2mt"
