@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* reset ....*/
+        @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@700&display=swap');
+        *{
+            font-family: 'Black Han Sans','Noto Sans KR', sans-serif;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+    <style>
+        #main_header{
+            height: 45px;
+            background-image: url('header_background.png');
+
+            text-align: center;
+            line-height: 45px;
+
+            position: relative;
+        }
+        #main_header > h1 {
+            color: #fff;
+            cursor: pointer;
+        }
+        #main_header> a.left{
+            position: absolute;
+            left: 5px;
+            top: 7px;
+            display: block;
+            width: 62px; height: 32px;
+            background: url('css_sprites.png') -1px -1px;
+            text-indent: -99999px;
+        }
+        #main_header>label.right{
+            position: absolute;
+            right: 5px;
+            top: 7px;
+            cursor: pointer;
+            width: 32px; height: 32px;
+            background: url('css_sprites.png') -65px -1px;
+            text-indent: -99999px;
+        }
+        #toggle{
+            display: none;
+        }
+        #toggle + #wrap>#toggle_gnb_wrap{
+            display: none;
+        }
+        #toggle:checked + #wrap>#toggle_gnb_wrap{
+            display: block;
+        }
+        #toggle_gnb_wrap{
+            background-color: #363636;
+            padding: 0.8em;
+        }
+        #toggle_gnb{
+            background-color: #fff;
+            padding: 0.2em;
+        }
+        #toggle_gnb>ul{
+            overflow: hidden;
+        }
+        #toggle_gnb>ul>li{
+            text-align: center;
+            float: left;
+            width: 25%;
+        }
+        #top_gnb{
+            overflow: hidden;
+            background-color: #944a4a;
+            padding: 0.5em;
+            border-bottom: 1px solid black;
+        }
+        #top_gnb >div>a{
+            float: left;
+            width: 25%;
+            text-align: center;
+            color: white;
+        }
+    </style>
+    <style>
+        #bottom_gnb{
+            display: table;
+            /* overflow: hidden; */
+            width: 100%;
+            border-bottom: 1px solid black;
+        }
+        #bottom_gnb>div{
+            display: table-cell;
+            /* float: left;
+            width: 20%; */
+            position: relative;
+        }
+        #bottom_gnb>div>a{
+            display: block;
+            text-align: center;
+            /* height: 2em;
+            line-height: 2em; */
+            padding: 0.5em;
+        }
+        #bottom_gnb>div>a::before{
+            position: absolute;
+            height: 15px; top:9px; left: -1px; width: 1px;
+            border-left: 1px solid black;
+            content: "";
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" id="toggle">
+    <div id="wrap">
+        <header id="main_header">
+            <a class="left" href="#">메뉴</a>
+            <h1>번역</h1>
+            <label class="right" for="toggle">메뉴</label>
+        </header>
+        <div id="toggle_gnb_wrap">
+            <div id="toggle_gnb">
+                <ul>
+                    <li><a href="#">버튼</a></li>
+                    <li><a href="#">버튼</a></li>
+                    <li><a href="#">버튼</a></li>
+                    <li><a href="#">버튼</a></li>
+                    <li><a href="#">버튼</a></li>
+                    <li><a href="#">버튼</a></li>
+                    <li><a href="#">버튼</a></li>
+                    <li><a href="#">버튼</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav id="top_gnb">
+            <div><a href="#">버튼</a></div>
+            <div><a href="#">버튼</a></div>
+            <div><a href="#">버튼</a></div>
+            <div><a href="#">버튼</a></div>
+        </nav>
+        <nav id="bottom_gnb">
+            <div><a href="#">버튼</a></div>
+            <div><a href="#">버튼</a></div>
+            <div><a href="#">버튼</a></div>
+            <div><a href="#">버튼</a></div>
+            <div><a href="#">버튼</a></div>
+        </nav>
+    </div>
+</body>
+</html>

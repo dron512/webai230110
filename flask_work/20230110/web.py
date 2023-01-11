@@ -7,6 +7,8 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     filename = request.args.get('filename')
+    if not filename :
+        filename='ex_ko'
     return render_template("index.html",filename=f"static/{filename}.mp3")
 
 @app.route("/make",methods=['GET','POST'])
