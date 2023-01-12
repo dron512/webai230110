@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #aa,#bb{display: none;}
+        #aDiv{ display: none; }
+        #bDiv{ display: none; }
+        #aa:checked~#aDiv{ display: block; }
+        #bb:checked~#bDiv{ display: block; }
+        #aDiv{
+            width: 100px;
+            height: 20px;
+            overflow: hidden;
+        }
+        #apDiv{
+            margin-left: -250px;
+        }
+        #apDiv > div{
+            float: left;
+        }
+        #apDiv > div:nth-child(1){
+            background-color: red;
+        }
+        #apDiv > div:nth-child(2){
+            background-color: blue;
+        }
+        #apDiv > div:nth-child(3){
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1><label for="aa">aa</label></h1>
+        <h1><label for="bb">bb</label></h1>
+    </div>
+    <input type="checkbox" name="aa" id="aa">
+    <input type="checkbox" name="bb" id="bb">
+    <div id="aDiv">
+        <div id="apDiv">
+            <div>
+                1111111111111
+            </div>
+            <div>
+                2222222222222
+            </div>
+            <div>
+                3333333333333
+            </div>
+        </div>
+    </div>
+    <div id="bDiv">
+        BBBBBBBBBBBBBBB
+    </div>
+</body>
+</html>
