@@ -9,7 +9,6 @@ from faker  import Faker
 def makePapago(text):
     faker = Faker()
     name = faker.name().replace(" ","")
-
     client_id = "O8au87yavMgyra8zcqJ9" # 개발자센터에서 발급받은 Client ID 값
     client_secret = "IUpn0_gEIg" # 개발자센터에서 발급받은 Client Secret 값
     encText = urllib.parse.quote(text)
@@ -24,13 +23,13 @@ def makePapago(text):
         response_body = response.read()
         res = response_body.decode('utf-8')
         res = json.loads(res)
-        text = res['message']['result']['translatedText']
-        print(text)
+        en = res['message']['result']['translatedText']
+        print(f"en = {en}")
     else:
         print("Error Code:" + rescode)
 
-    tts = gTTS(text=text,lang='ko',slow=True)
+    tts = gTTS(text=en,lang='ko',slow=True)
     tts.save(f'20230110/static/{name}.mp3')
     import time
     time.sleep(1)
-    return name
+    return en,name

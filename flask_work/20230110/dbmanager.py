@@ -10,7 +10,7 @@ def saveFiles(ko,en,filename):
             INSERT INTO files 
             (ko, en, filename, regdate) 
             VALUES
-            ('{ko}','{en}','{filename}',NOW())
+            ("{ko}","{en}","{filename}",NOW())
         '''
     cursor.execute(sql)
     db.commit()

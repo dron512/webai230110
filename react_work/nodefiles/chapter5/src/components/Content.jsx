@@ -1,21 +1,13 @@
 import React, { useEffect, useState } from "react";
+import { useRef } from "react";
 import Article from "./Article";
 import TabItem from "./TabItem";
 
+
 function Content() {
-  const [tabChecked1, setTabChecked1] = useState(true);
-  const checked1 = () => {
-    if (tabChecked1 === true) setTabChecked1(false);
-    else setTabChecked1(true);
-  };
-  const [tabChecked2, setTabChecked2] = useState(false);
-  const checked2 = () => {
-    if (tabChecked2 === false) setTabChecked2(true);
-    else setTabChecked2(false);
-  };
   useEffect(() => {
-    setTabChecked2(true);
-    setTabChecked2(false);
+    const $inputFirst = document.getElementById('first')
+    $inputFirst.checked = true;
   }, []);
   return (
     <div id="content">
@@ -30,15 +22,12 @@ function Content() {
           type="radio"
           name="tab"
           id="first"
-          checked={tabChecked1}
-          onChange={checked1}
+          onChange={()=>{}}
         />
         <input
           type="radio"
           name="tab"
           id="second"
-          checked={tabChecked2}
-          onChange={checked2}
         />
         <section className="buttons">
           <label htmlFor="first">First</label>

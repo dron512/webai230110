@@ -8,17 +8,20 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     filename = request.args.get('filename')
+    print(f'filename ={filename}')
     if not filename :
         filename='ex_ko'
+    print(f'filename ={filename}')
     return render_template("index.html",filename=f"static/{filename}.mp3")
 
 @app.route("/make",methods=['GET','POST'])
 def make():
-    text = "안녕"
+    ko = "안녕"
     if request.method =='POST':
-        text = request.form['text']
-    filename = mhpapago.makePapago(text)
-    dbmanager.saveFiles("한국말","영어말",filename)
+        ko = request.form['text']
+    print(f'text ={ko}')
+    en,filename = mhpapago.makePapago(ko)
+    dbmanager.saveFiles(ko,en,filename)
     return redirect(url_for(f'index',filename=filename))
 
 
