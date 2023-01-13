@@ -32,14 +32,31 @@
                 <h2>결과 {{win}}승 {{draw}}무 {{lose}}패</h2>
             </div>
         </div>
-        <div class="row">
+        <div class="row bg-info p-4 m-1">
             <div class="col">
                 <h1>시분초출력</h1>
+                <form action="time">
+                    <input class="form-control w-50 m-3" type="text" name="time">
+                    <input class="btn btn-primary m-3 ms-5" type="submit" value="초입력">
+                </form>
+            </div>
+            <div class="col text-white">
+                <h1>{{hour}} 시 {{min}}분 {{se}}초</h1>
             </div>
         </div>
-        <div class="row">
+        <div class="row bg-success p-4 m-1">
             <div class="col">
                 <h1>구구단출력</h1>
+                <form action="gugudan">
+                    첫번째수
+                    <input class="form-control w-50 m-3" type="text" name="fi">
+                    두번째수
+                    <input class="form-control w-50 m-3" type="text" name="se">
+                    <input class="btn btn-primary m-3 ms-5" type="submit" value="구구단">
+                </form>
+            </div>
+            <div class="col text-white">
+                {{gugu}}
             </div>
         </div>
     </div>
