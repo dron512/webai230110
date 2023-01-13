@@ -1,10 +1,16 @@
 from flask import Flask,render_template,request
+from flaskext.markdown import Markdown
+
+# pip install Flask-Markdown
+
 import random
 app = Flask(__name__)
 
 win = 0
 lose = 0
 draw = 0
+
+Markdown(app, extentions=['nl2br', 'fenced_code'])
 
 @app.route("/")
 def index():
@@ -54,7 +60,7 @@ def gugudan():
     print('se = ',se)
     for start in range(fi,se+1):
         for i in range(1,10):
-            gugu += f"{start} * {i} = {start*i}"
+            gugu += fr"{start} * {i} = {start*i}<br>"
 
     return render_template("index.html",gugu=gugu)
 
