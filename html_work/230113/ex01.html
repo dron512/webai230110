@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jua&family=Lilita+One&display=swap');
+        *{
+            font-family: 'Jua','Lilita One', cursive;
+        }
+        #left> h2:nth-child(n){
+            background-color: red;
+        }
+        #left> h2:nth-child(2n){
+            background-color: green;
+        }
+        #main_footer{
+            border-top: 1px solid black;
+            position: fixed;
+            bottom: 0;
+            left:0;
+            right: 0;
+            text-align: center;
+            line-height: 40px;
+            background-color: #98afde;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid p-3" style="background-color: #98afde;">
+        <div class="row">
+            <div class="col"> 
+                <h1>Fluid</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-1 border" style="background-color: gray;">
+                        <h3>ONE</h3>
+                    </div>
+                    <div class="col-1 border" style="background-color: gray;">
+                        <h3>Two</h3>
+                    </div>
+                    <div class="col-1 border" style="background-color: gray;">
+                        <h3>Three</h3>
+                    </div>
+                    <div class="col-1 border" style="background-color: gray;">
+                        <h3>Four</h3>
+                    </div>
+                    <div class="col-1 border" style="background-color: gray;">
+                        <h3>Five</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="row">
+                    <div class="col-6 border" style="background-color: gray;">
+                        <h4>button</h4>
+                    </div>
+                    <div class="col-6 border" style="background-color: gray;">
+                        <h4>button</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <div id="left">
+                    <h2 style="padding-left: 1rem;">one</h2>
+                    <h2 class="ps-3">two</h2>
+                    <h2 class="ps-3">three</h2>
+                    <h2 class="ps-3">four</h2>
+                    <h2 class="ps-3">five</h2>
+                </div>
+            </div>
+            <div class="col-10">
+                <div class="row">
+                    <div class="col">
+                        <h1>lorem ipsum</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda quibusdam voluptas error dolor sit est a ut quos eos commodi ea ad odio, in beatae id dolorum ipsa veritatis necessitatibus?</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h1>lorem ipsum</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda quibusdam voluptas error dolor sit est a ut quos eos commodi ea ad odio, in beatae id dolorum ipsa veritatis necessitatibus?</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h1>lorem ipsum</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda quibusdam voluptas error dolor sit est a ut quos eos commodi ea ad odio, in beatae id dolorum ipsa veritatis necessitatibus?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main_footer">
+        <h2>parkmyounghoi</h2>
+        <address>경북산업직업전문학교</address>
+    </div> 
+</body>
+</html>

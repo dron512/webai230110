@@ -24,14 +24,30 @@
             </ul>
         </div>
         <div id="main_section">
-            <audio controls src="{{filename}}">
+            <audio controls src="{%print(filename)%}">
                 오디오
             </audio>
+            {% for item in res %}
+            <audio controls src="static/{{item[3]}}.mp3">
+                오디오
+            </audio>
+            {% endfor %}
         </div>
     </div>
+    {% for item in a %}
+    item = {{item}}<br/>
+    {% endfor %}
+    {% for item in b %}
+    item[0] = {{item[0]}}<br/>
+    {% endfor %}
+    
     <form action="make" method="post">
-        <input type="text" name="text" id="">
+        번역하고 싶은 한국어 = <input type="text" name="text" id=""><br/>
+        <!-- AAA = <input type="text" name="AAA" id=""> -->
         <input type="submit" value="문장번역">
+    </form>
+    <form action="test">
+        <input type="submit" value="테스트로이동">
     </form>
 </body>
 

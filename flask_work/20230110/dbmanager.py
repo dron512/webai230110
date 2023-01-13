@@ -2,7 +2,7 @@ import pymysql
 
 def saveFiles(ko,en,filename):
     db = pymysql.connect(
-        host='127.0.0.1', port=3306,  
+        host='192.168.0.80', port=3306,  
         user='student', passwd='student123', 
         db='mhpark', charset='utf8')
     cursor = db.cursor()
@@ -15,3 +15,18 @@ def saveFiles(ko,en,filename):
     cursor.execute(sql)
     db.commit()
     db.close()
+
+def selectFiles():
+    db = pymysql.connect(
+        host='192.168.0.80', port=3306,  
+        user='student', passwd='student123', 
+        db='mhpark', charset='utf8')
+    cursor = db.cursor()
+    sql = f'''
+            SELECT * FROM files
+        '''
+    cursor.execute(sql)
+    res = cursor.fetchall()
+    db.close()
+    return res
+    
