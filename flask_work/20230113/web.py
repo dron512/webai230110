@@ -14,7 +14,7 @@ Markdown(app, extentions=['nl2br', 'fenced_code'])
 
 @app.route("/")
 def index():
-    return render_template('index.html')
+    return render_template('index.html',gugu="")
 
 @app.route("/game")
 def game():
@@ -60,7 +60,7 @@ def gugudan():
     print('se = ',se)
     for start in range(fi,se+1):
         for i in range(1,10):
-            gugu += fr"{start} * {i} = {start*i}<br>"
+            gugu += f"{start} * {i} = {start*i}<br>"
 
     return render_template("index.html",gugu=gugu)
 
