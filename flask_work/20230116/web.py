@@ -7,9 +7,16 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route("/insert", methods=['GET','POST'])
-def insert():
-    print('insert')
+@app.route("/select")
+def select():
+    return render_template('select.html')
+
+@app.route("/insertform")
+def insertform():
+    return render_template('insertform.html')
+
+@app.route("/insertproc", methods=['GET','POST'])
+def insertproc():
     if request.method == 'POST':
         title = request.form['title']
         desc = request.form['desc']
@@ -24,7 +31,7 @@ def insert():
         cursor.execute(sql,param)
         db.commit()
         db.close()
-    return render_template('insert.html')
+    return render_template('insertproc.html')
 
 
 app.run(debug=True,host='0.0.0.0')
