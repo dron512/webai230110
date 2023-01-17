@@ -11,3 +11,11 @@ a{
 li{
     list-style-type: none;
 }
+body{
+    position:relative;
+}
+div.aside{
+    position:absolute;
+    right:1rem;
+    top: 3rem;
+}

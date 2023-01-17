@@ -22,6 +22,13 @@
                 <a href="select" class="btn btn-primary">select</a>
             </div>
         </div>
+        <div class="row">
+            <div class="col">
+                {% for row in res %}
+                {{row}}<br/>
+                {% endfor %}
+            </div>
+        </div>
     </div>
 </body>
 </html>

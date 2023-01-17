@@ -9,7 +9,16 @@ def index():
 
 @app.route("/select")
 def select():
-    return render_template('select.html')
+    db = pymysql.connect(
+            host='192.168.0.80',port=3306,
+            user='student', password='student123',
+            db='mhpark', charset='utf8')
+    cursor = db.cursor()
+    sql = '''select * from book'''
+    cursor.execute(sql)
+    res = cursor.fetchall()
+    db.close()
+    return render_template('select.html',res=res)
 
 @app.route("/insertform")
 def insertform():
