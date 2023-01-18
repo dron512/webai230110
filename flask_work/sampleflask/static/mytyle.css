@@ -19,10 +19,3 @@ body{
 ::-webkit-scrollbar {
   display: none;
 }
-
-div.aside{
-    position:absolute;
-    right:1rem;
-    top: 3rem;
-}
-

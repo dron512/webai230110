@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            height: 100px; width: 100px;
+            background-color: orange;
+
+            /* transform: translate(100px,100px) rotate(30deg); */
+        }
+        .move{
+            animation: aaa;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes aaa {
+            from{
+                transform: translate(0px,0px);
+            }
+            to{
+                transform: translate(100px,100px) rotate(30deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </div>
+</body>
+</html>
+<script>
+    const $box = document.getElementById('box');
+    $box.addEventListener('click',()=>{
+        $box.classList.add('move')
+    })
+</script>
