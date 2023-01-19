@@ -31,8 +31,10 @@ def select():
     cursor = connection.cursor()
     sql = f'select count(idx) from freeboard'
     cursor.execute(sql)
-    res = cursor.fetchall()
-    print('cnt = ',res[0])
+    cnt = cursor.fetchall()
+    rowcnt = int(cnt[0][0])
+    pagecnt = rowcnt//3
+    pageCnt = pagecnt if rowcnt%3==0 else pagecnt+1
     config.close(connection)
 
-    return render_template(f'{prefix}/select.html',res=res)
+    return render_template(f'{prefix}/select.html',res=res,pageCnt=pageCnt,pageNum=pageNum)
