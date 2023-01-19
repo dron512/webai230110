@@ -1,12 +1,40 @@
 {% extends 'base.html' %}
 
+{% block style%}
+<style>
+    .div-relative{
+        position: relative;
+    }
+    .btn-div{
+        position: absolute;
+        top: 3.5rem;
+        right: 1rem;
+    }
+</style>
+{% endblock %}
+
+{% block script %}
+<script>
+    // const $tr = document.getElementsByTagName('tr')
+    // $tr.addEventListener('click',(e)=>{
+    //     console.log(e.dataset.idx)
+    // })
+    function selectfn(e){
+        location.href='freeboard/view?idx='+e;
+    }
+</script>
+{% endblock %}
+
 {% block content %}
 <div class="container">
     <div class="row">
-        <div class="col">
+        <div class="col div-relative">
             <h1>freeboard/select.html</h1>
             <h2>게시판목록</h2>
-            <table class="table">
+            <div class="btn-div">
+                <a href="/freeboard/insertform" class="btn btn-primary">글쓰기</a>
+            </div>
+            <table class="table" id="table">
                 <tr>
                     <th>번호</th>
                     <th>제목</th>
@@ -15,7 +43,7 @@
                     <th>작성일자</th>
                 </tr>
                 {% for row in res %}
-                <tr>
+                <tr onclick="selectfn({{row[0]}})">
                     <td>{{row[0]}}</td>
                     <td>{{row[1]}}</td>
                     <td>{{row[3]}}</td>
@@ -45,14 +73,27 @@
                     </li>
                     {% endif %}
                     {% endfor%}
-                    <li class="page-item"><a class="page-link" href="/freeboard/select?pageNum={{pageNum+1}}">Next</a>
+                    {% if pageNum == pageCnt %}
+                    <li class="page-item">
+                        <a class="page-link disabled" href="/freeboard/select?pageNum={{pageNum+1}}">Next</a>
                     </li>
+                    {% else %}
+                    <li class="page-item">
+                        <a class="page-link" href="/freeboard/select?pageNum={{pageNum+1}}">Next</a>
+                    </li>
+                    {% endif %}
                 </ul>
             </nav>
             <!-- 페이징 처리 끝-->
         </div>
     </div>
 </div>
+<!-- <div>
+    <form action="/freeboard/select" method="POST">
+        <input type="text" name="pageNum" id="">
+        <input type="submit" value="전송">
+    </form>
+</div> -->
 
 
 {% endblock%}

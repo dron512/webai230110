@@ -7,14 +7,30 @@ app = Blueprint(prefix,__name__, url_prefix=f'/{prefix}')
 
 @app.route("insertform")
 def insertform():
-    return f'{prefix}/insertform'
+    return render_template('freeboard/insertform.html')
 
 @app.route("insertproc")
 def insertproc():
-    return f'{prefix}/insertproc'
+    title = request.args.get('title')
+    content = request.args.get('content')
+    writer = request.args.get('writer')
 
-@app.route("select")
+    connection = config.connect()
+    cursor = connection.cursor()
+    sql = f"""
+              insert into freeboard
+              (title,content,writer,regdate) 
+              values 
+              ('{title}','{content}','{writer}',now())
+            """
+    cursor.execute(sql)
+    connection.commit()
+    config.close(connection)
+    return redirect('/freeboard/select')
+
+@app.route("select",methods=['GET','POST'])
 def select():
+    # pageNum = request.form['pageNum']
     pageNum = request.args.get('pageNum')
     if pageNum == None:
         pageNum = 1
