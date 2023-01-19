@@ -1,0 +1,1 @@
+{"mappings":"AAAA,MAAM,OAAO,SAAS,cAAc,CAAC;AACrC,KAAK,SAAS,GAAG","sources":["main.js"],"sourcesContent":["const $myP = document.getElementById('myP')\r\n$myP.innerHTML = \"테스트\"\r\n"],"names":[],"version":3,"file":"index.c4775257.js.map","sourceRoot":"/__parcel_source_root/"}

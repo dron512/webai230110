@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+         display:flex;
+         align-items : center
+         justiyfy-content - center
+         position:absolute
+         bottom 0 top 0 height margin auto
+        */
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: #669900;
+            /* transition: .5s; */
+            transform: translate(100px,100px)
+                        rotate(30deg);
+
+            animation-name: bb;
+            animation-duration: 5s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+        @keyframes bb{
+            from{
+                transform: translate(100px,100px)
+                        rotate(0deg);
+            }
+            25%{
+                transform: translate(150px,150px)
+                        rotate(90deg);
+            }
+            50%{
+                transform: translate(200px,100px)
+                        rotate(180deg);
+            }
+            75%{
+                transform: translate(250px,150px)
+                        rotate(270deg);
+            }
+            to{
+                transform: translate(200px,200px)
+                        rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    </div>
+</body>
+</html>

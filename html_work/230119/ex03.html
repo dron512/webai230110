@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #section{
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+        }
+        #article{
+            width: 100px;
+            height: 100px;
+            transform: translateX(50px) translateY(50px) 
+                        scale(0.5) skew(30deg) rotate(60deg);
+            background-color: #333;
+            transition: .5s;
+        }
+        /* #article:hover{
+            transform: translateX(30px) translateY(30px) 
+                        scale(1) rotate(120deg);
+        }
+         */
+        #mov:checked ~ #article{
+            transform: translateX(30px) translateY(30px) 
+                        scale(1) rotate(120deg);
+        }
+    </style>
+</head>
+<body>
+    <label for="mov">이동</label>
+    <div id="section">
+        <input type="checkbox" id="mov">
+        <div id="article">
+        </div>
+    </div>
+</body>
+</html>
