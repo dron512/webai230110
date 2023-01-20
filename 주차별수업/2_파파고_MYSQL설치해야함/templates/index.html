@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+    <input type="checkbox" id="toggle">
+    <div id="wrap">
+        <div id="main_header">
+            <a href="#">TODAYSTUDY</a>
+            <h1><a href="#"/>MAIN</a></h1>
+            <label for="toggle">MENU</label>
+        </div>
+        <div id="top_gnb">
+            <ul>
+                <li><a href="#">날짜추가</a></li>
+                <li><a href="#">문장추가</a></li>
+            </ul>
+        </div>
+        <div id="main_section">
+            <audio controls src="{%print(filename)%}">
+                오디오
+            </audio>
+            {% for item in res %}
+            <audio controls src="static/{{item[3]}}.mp3">
+                오디오
+            </audio>
+            {% endfor %}
+        </div>
+    </div>
+    {% for item in a %}
+    item = {{item}}<br/>
+    {% endfor %}
+    {% for item in b %}
+    item[0] = {{item[0]}}<br/>
+    {% endfor %}
+    
+    <form action="make" method="post">
+        번역하고 싶은 한국어 = <input type="text" name="text" id=""><br/>
+        <!-- AAA = <input type="text" name="AAA" id=""> -->
+        <input type="submit" value="문장번역">
+    </form>
+    <form action="test">
+        <input type="submit" value="테스트로이동">
+    </form>
+</body>
+
+</html>

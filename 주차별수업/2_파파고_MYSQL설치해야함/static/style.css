@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@700&display=swap");
+* {
+  font-family:  "Noto Sans KR", "Black Han Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li {  list-style: none;}
+a {text-decoration: none;}
+a:visited{color: black;}
+a:link{color: black;}
+#toggle{ display: none; }
+#main_header{ text-align: center; position: relative;}
+#main_header > label{ cursor: pointer; position: absolute; right: 0; top: 0.5em;}
+#main_header > a { position: absolute; left:0; top:0.5em;}
+#toggle + #wrap > #top_gnb{ display: none;}
+#toggle:checked + #wrap > #top_gnb{ display: block;}

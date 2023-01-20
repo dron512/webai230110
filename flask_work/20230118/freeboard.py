@@ -5,6 +5,17 @@ prefix = 'freeboard'
 
 app = Blueprint(prefix,__name__, url_prefix=f'/{prefix}')
 
+@app.route("view")
+def view():
+    idx = request.args.get('idx')
+    connection = config.connect()
+    cursor = connection.cursor()
+    sql = f'select * from freeboard where idx={idx}'
+    cursor.execute(sql)
+    res = cursor.fetchall()
+    config.close(connection)
+    return render_template('freeboard/view.html',res=res)
+
 @app.route("insertform")
 def insertform():
     return render_template('freeboard/insertform.html')

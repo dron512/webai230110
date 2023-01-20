@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jua&family=Lilita+One&display=swap');
 *{
-    font-family: 'Jua','Lilita One', cursive;
+    font-family: 'Lilita One','Jua', arial, cursive;
     padding: 0;
     margin: 0;
     box-sizing: border-box;

@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block style %}
+    <style>
+        div#view label{
+            color: 1.4rem;
+            line-height: 1.4rem;
+            padding: .5rem;
+        }
+        div#view p{
+            color: #333;
+            padding: .5rem;
+            border :1px solid black;
+            border-radius: 0.3rem;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>freeboard/view</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col justify-content-center" id="view">
+            <form action="/freeboard/insertproc">
+                <label for="title">글제목</label>
+                <p>{{res[0][1]}}</p>
+                <label for="content">글내용</label>
+                <p>{{res[0][2]}}</p>
+                <label for="writer">작성자</label>
+                <p>{{res[0][3]}}</p>
+                <label for="writer">작성일자</label>
+                <p>{{res[0][5]}}</p>
+                <a href="/freeboard/select" class="btn btn-primary">목록</a>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock%}
