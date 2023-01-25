@@ -2,6 +2,7 @@
   "name": "20230125",
   "version": "1.0.0",
   "description": "",
+  "home": "./webai230110/",
   "scripts": {
     "aa": "echo \"aaa\"",
     "test": "echo \"Error: no test specified\" && exit 1",
