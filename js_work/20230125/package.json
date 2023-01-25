@@ -6,7 +6,8 @@
   "scripts": {
     "aa": "echo \"aaa\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "yarn parcel src/index.html"
+    "dev": "yarn parcel src/index.html",
+    "build": "yarn parcel build src/index.html"
   },
   "author": "",
   "license": "ISC",
