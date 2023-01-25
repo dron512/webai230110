@@ -2,7 +2,6 @@
   "name": "20230125",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "aa": "echo \"aaa\"",
     "test": "echo \"Error: no test specified\" && exit 1",
