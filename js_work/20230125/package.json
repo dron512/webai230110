@@ -1,0 +1,20 @@
+{
+  "name": "20230125",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "aa": "echo \"aaa\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "yarn parcel src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "lodash": "^4.17.21"
+  }
+}
