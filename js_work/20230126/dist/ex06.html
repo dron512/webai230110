@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="my-div"></div>
+<script src="/ex06.555d3cf5.js"></script></body>
+</html>
+<script>let li = "";
+li += "<ul>";
+li += "<li>Hello</li>";
+li += "<li>javascript</li>";
+li += "</ul>";
+console.log(li);
+const $myDiv = document.getElementById("my-div");
+$myDiv.innerHTML = li;
+const a = 10;
+const b = {
+    a: 10
+};
+const c = [
+    10,
+    20,
+    30
+];
+// a = 20;
+b.a = 20;
+console.log(a);
+console.log(b.a);
+c[0] = 30;
+console.log(c);
+
+</script>
