@@ -12,14 +12,13 @@ app.register_blueprint(fileboard.app)
 def index():
     x = request.args.get('x')
     y = '예측되는숫자를 넣으셔야 합니다.'
+    xs = [[28],[29],[30],[31],[32]]
+    ys = [200,220,240,260,280]
     print('x = ',x)
     if x :
         knr = LinearRegression()
-        knr.fit(
-            [[28],[29],[30],[31],[32]],
-            [200,220,240,260,280]
-        )
+        knr.fit(xs,ys)
         y = knr.predict([[float(x)]])
-    return render_template('index.html',y=y)
+    return render_template('index.html',y=y,xs=xs,ys=ys)
 
 app.run(debug=True)

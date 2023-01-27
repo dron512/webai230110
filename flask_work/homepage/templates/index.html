@@ -3,13 +3,26 @@
 {% block content %}
 <div class="container">
     <h1>안녕하세요</h1>
-    <h1>안녕하세요</h1>
-    <h1>안녕하세요</h1>
     <h2>숫자 입력하세요 <br> 예측되는 수 출력해드립니다.</h2>
     <form action="" method="get">
         <input class="form-control w-50 m-3" type="text" name="x" id="">
         <input class="btn btn-primary" type="submit" value="예측하기">
     </form>
     <h3>{{y}}</h3>
+    <h1>학습된데이터</h1>
+    <h3>1번째행 xs 2번째행 ys</h3>
+    <table class="table border">
+        <tr>
+            {% for col in xs %}
+            <td>{{col[0]}}</td>
+            {% endfor %}
+        </tr>
+        <tr>
+            {% for col in ys %}
+            <td>{{col}}</td>
+            {% endfor %}
+        </tr>
+    </table>
+    <img src="static/images/a.png" alt="a.png" width="450">
 </div>
 {% endblock %}
