@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="my-div"></div>
+<script src="/ex04.fe6b6678.js"></script></body>
+</html>
+<script>const date = new Date();
+// alert(date.getFullYear());
+// alert(date.getMonth()+1);
+// alert(date.getDate());
+// alert(date.getHours());
+// alert(date.getMinutes());
+// alert(date.getSeconds());
+const $myDiv = document.getElementById("my-div");
+$myDiv.innerHTML = `${date.getFullYear()}년 ${date.getMonth() + 1}월 ${date.getDate()}일
+                        ${date.getHours()}시 ${date.getMinutes()}분 ${date.getSeconds()}초`;
+
+</script>
