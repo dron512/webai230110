@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" name="number" id="input-number">
+    <!-- <button id="btn" onclick="doA()">확인</button> -->
+    <button id="btn">확인</button>
+    <div id="print-div"></div>
+</body>
+
+</html>
+<script>
+    const $inputNumber = document.getElementById('input-number');
+    const $btn = document.getElementById('btn');
+    const $printDiv = document.getElementById('print-div');
+
+    $btn.addEventListener('click', function () {
+        let a = $inputNumber.value > 0 ? 1:0;
+        a = $inputNumber.value==0 ? 3:a;
+        console.log(a);
+        switch (a) {
+            case 1:
+                $printDiv.innerHTML = "양수입니다.."
+                console.log("양수입니다.")
+                break;
+            case 0:
+                $printDiv.innerHTML = "음수입니다."
+                console.log("음수입니다.")
+                break;
+            default:
+                $printDiv.innerHTML = " 0 입니다."
+                console.log("default.")
+                break;
+        }
+    });
+</script>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>ex01</h1>
+    <input type="text" id="number">
+    <button id="btn">확인</button>
+    <h1>양수 음수 0</h1>
+    <div id="a-div">
+    </div>
+    <h1>홀수 짝수</h1>
+    <div id="b-div">
+    </div>
+</body>
+
+</html>
+<script>var $btn = document.getElementById('btn');
+var $number = document.getElementById('number');
+var $aDiv = document.getElementById('a-div');
+var $bDiv = document.getElementById('b-div');
+$btn.addEventListener('click', function () {
+  var number = $number.value;
+  var aDivResult = "";
+  var bDivResult = "";
+  if (number > 0) {
+    aDivResult = "양수입니다.";
+  } else if (number == 0) {
+    aDivResult = " 양수도 아니고 음수도 아니고 0입니다. ";
+  } else {
+    aDivResult = "음수 입니다.";
+  }
+  if (number % 2 == 0) {
+    bDivResult = "짝수입니다.";
+  } else {
+    bDivResult = "홀수 입니다.";
+  }
+
+  // $aDiv.innerHTML = number +"는 " + aDivResult;
+  $aDiv.innerHTML = "".concat(number, " \uB294 ").concat(aDivResult);
+  $bDiv.innerHTML = "".concat(number, " \uB294 ").concat(bDivResult);
+});</script>
