@@ -3,7 +3,7 @@
 {% block content %}
 <div class="container">
     <h1>freeboard/insertform.html</h1>
-    <form>
+    <form action="/freeboard/insertproc" method="post">
         제목
         <input class="form-control" type="text" name="title" id="">
         내용
@@ -12,6 +12,5 @@
         <input class="form-control" type="text" name="writer" id="">
         <input class="btn btn-primary" type="submit" value="글작성">
     </form>
-   
 </div>
 {% endblock %}

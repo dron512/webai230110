@@ -1,7 +1,14 @@
-from flask import Blueprint,render_template
+from flask import Blueprint, render_template, request, redirect
 from components.db import freeboardmanage
 
 app = Blueprint('freeboard',__name__, url_prefix='/freeboard')
+
+@app.route("view")
+def view():
+    idx = int(request.args.get('idx'))
+    res = freeboardmanage.selectRow(idx)
+    print("select row 됨",res)
+    return render_template('freeboard/view.html',res=res)
 
 @app.route("/select")
 def select():
@@ -12,3 +19,11 @@ def select():
 @app.route("/insertform")
 def insertform():
     return render_template('freeboard/insertform.html')
+
+@app.route("insertproc", methods=['POST'])
+def insertproc():
+    title = request.form['title']
+    content = request.form['content']
+    writer = request.form['writer']
+    freeboardmanage.insert(title,content,writer)
+    return redirect('/freeboard/select')
