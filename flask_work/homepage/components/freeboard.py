@@ -27,3 +27,9 @@ def insertproc():
     writer = request.form['writer']
     freeboardmanage.insert(title,content,writer)
     return redirect('/freeboard/select')
+
+@app.route("delete")
+def delete():
+    idx = int(request.args.get('idx'))
+    freeboardmanage.delete(idx)
+    return redirect('/freeboard/select')

@@ -50,8 +50,20 @@ def insert(title,content,writer):
     db.close()
     print("insert해야함")
 
-def delete():
-    print("delete해야함")
+def delete(idx):
+    db = pymysql.connect(
+        host=host,port=port,
+        user=user,password=password,
+        db=dbname,charset=charset
+    )
+    sql = f"""DELETE
+             FROM freeboard 
+            WHERE idx= {idx}"""
+    cursor = db.cursor()
+    cursor.execute(sql)
+    db.commit()
+    db.close()
+    print("delete해야함",idx)
 
 def update():
     print("update 수정해야함")
