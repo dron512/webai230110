@@ -13,6 +13,14 @@
     <p>{{res[5]}}</p>
     <h2>작성날짜</h2>
     <p>{{res[6]}}</p>
-    <a class="btn btn-primary" href="/freeboard/select">목록</a>
+    <div style="position: relative;">
+        <div style="position: absolute; ">
+            <a class="btn btn-primary" href="/freeboard/select">목록</a>
+        </div>
+        <div style="position: absolute; top:0; right: 0;">
+            <a class="btn btn-primary" href="/freeboard/updateform">수정</a>
+            <a class="btn btn-primary" href="/freeboard/delete">삭제</a>
+        </div>
+    </div>
 </div>
 {% endblock %}

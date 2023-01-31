@@ -1,0 +1,18 @@
+<script>
+    // const result = (100 > 200) ? confirm("100이 200보다 크냐") : prompt("입력해라");
+    // console.log(result);
+    const str = "안녕하세요"
+    alert(str[0]);
+    alert(str[1]);
+    alert(str[2]);
+
+    for (const temp in str){
+        console.log(`${temp} : ${str}`);
+        console.log(`${str[temp]} : ${str}`);
+    }
+    console.log("");
+    for (const temp of str){
+        console.log(`${temp} : ${str}`);
+        // console.log(`${str[temp]} : ${str}`);
+    }
+</script>

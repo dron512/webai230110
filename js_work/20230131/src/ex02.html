@@ -1,0 +1,27 @@
+<script>
+    const a = [10, 20, 30, 40];
+
+    for (const ele of a) {
+        console.log(ele);
+    }
+    console.log("")
+
+    for (const ele in a) {
+        console.log(a[ele]);
+    }
+    console.log("")
+    const b = function () { console.log("b") };
+    const c = {a:10,b:20,c:function(){ console.log("c"); return 10; }}
+    console.log(b);
+    console.log(c.a);
+    console.log(c.b);
+    console.log(c.c());
+    console.log("")
+    for (const temp in c){
+        console.log(temp);
+    }
+    console.log("")
+    for (const temp of c){
+        console.log(temp);
+    }
+</script>
