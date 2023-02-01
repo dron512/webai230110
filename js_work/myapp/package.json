@@ -1,5 +1,6 @@
 {
   "name": "myapp",
+  "homepage": "https://dron512.github.io/webai230110/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
