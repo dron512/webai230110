@@ -1,0 +1,13 @@
+<script>var result = prompt('몇개줄 원하니?');
+var 별표개수 = 1;
+for (var indent = result; indent > 0; indent--) {
+  var output = "";
+  for (var i = indent; i > 0; i--) {
+    output += " ";
+  }
+  for (var _i = 0; _i < 별표개수; _i++) {
+    output += '*';
+  }
+  별표개수 += 2;
+  console.log(output);
+}</script>
