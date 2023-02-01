@@ -16,6 +16,23 @@ def select():
     print("select 됨",res)
     return render_template('freeboard/select.html',res=res)
 
+@app.route("/updateform")
+def updateform():
+    idx = request.args.get('idx')
+    res = freeboardmanage.selectRow(idx)
+    return render_template('freeboard/updateform.html',res=res)
+
+@app.route("updateproc", methods=['POST'])
+def updateproc():
+    title = request.form['title']
+    content = request.form['content']
+    writer = request.form['writer']
+    idx = request.form['idx']
+    freeboardmanage.update(title,content,writer,idx)
+    return redirect('/freeboard/select')
+
+
+
 @app.route("/insertform")
 def insertform():
     return render_template('freeboard/insertform.html')

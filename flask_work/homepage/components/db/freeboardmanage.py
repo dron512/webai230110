@@ -65,5 +65,19 @@ def delete(idx):
     db.close()
     print("delete해야함",idx)
 
-def update():
+def update(title,content,writer,idx):
+    db = pymysql.connect(
+        host=host,port=port,
+        user=user,password=password,
+        db=dbname,charset=charset
+    )
+    sql = f"""UPDATE freeboard
+                SET title = '{title}',
+                    content = '{content}',
+                    writer = '{writer}'
+                WHERE idx ={idx};"""
+    cursor = db.cursor()
+    cursor.execute(sql)
+    db.commit()
+    db.close()
     print("update 수정해야함")
