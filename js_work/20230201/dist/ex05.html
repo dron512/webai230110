@@ -1,13 +1,41 @@
-<script>var result = prompt('몇개줄 원하니?');
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;aaa</h1>
+    <div id="my-div"></div>
+</body>
+</html>
+<script>var $myDiv = document.getElementById('my-div');
+var result = prompt('몇개줄 원하니?');
 var 별표개수 = 1;
 for (var indent = result; indent > 0; indent--) {
   var output = "";
   for (var i = indent; i > 0; i--) {
-    output += " ";
+    output += "&nbsp;";
   }
   for (var _i = 0; _i < 별표개수; _i++) {
     output += '*';
   }
   별표개수 += 2;
-  console.log(output);
+  $myDiv.innerHTML = $myDiv.innerHTML + output + "<br>";
+}
+별표개수 -= 4;
+var subResult = result - 1;
+for (var _indent = result; _indent > 0; _indent--) {
+  subResult -= 1;
+  var _output = "";
+  for (var _i2 = 0; _i2 < result - subResult; _i2++) {
+    _output += "&nbsp;";
+  }
+  for (var _i3 = 0; _i3 < 별표개수; _i3++) {
+    _output += '*';
+  }
+  별표개수 -= 2;
+  $myDiv.innerHTML = $myDiv.innerHTML + _output + "<br>";
 }</script>

@@ -1,0 +1,21 @@
+<script>
+    const min = function (array){
+        let min = array[0];
+        for (const item of array) {
+            if(min > item)
+                min = item;
+        }
+        return min;
+    }
+    const max = function (array){
+        let max = array[0];
+        for (const item of array) {
+            if(max < item)
+                max = item;
+        }
+        return max;
+    }
+
+    console.log(`min = ${min([20,30,273,80,90,10,5])}`);
+    console.log(`max = ${max([20,30,273,80,90,10,5])}`);
+</script>

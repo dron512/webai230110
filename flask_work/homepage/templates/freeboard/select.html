@@ -14,8 +14,32 @@
                 <td>{{row[4]}}</td>
                 <td>{{row[5]}}</td>
             </tr>
-        {% endfor%}
+        {% endfor %}
     </table>
+    <div>
+        <ul id="my-ul" style="display: flex; justify-content: center;">
+            <li><a href="/freeboard/select?page=1">«</a></li>
+            <li><a class="active" href="/freeboard/select?page=1">1</a></li>
+            <li><a href="/freeboard/select?page=2">2</a></li>
+            <li><a href="/freeboard/select?page=3">3</a></li>
+            <li><a href="/freeboard/select?page=4">4</a></li>
+            <li><a href="/freeboard/select?page=4">»</a></li>
+        </ul>
+    </div>
+    <style>
+        #my-ul> li{
+            padding: .2rem 0.5rem;
+            margin: 0.2rem;
+            border :1px solid #ccc;
+            border-radius: 0.2rem;
+        }
+        #my-ul> li a {
+            text-decoration: none;
+        }
+        .active {
+            color: #333;
+        }
+    </style>
     <a class="btn btn-primary" href="/freeboard/insertform">글작성</a>
 </div>
 {% endblock %}

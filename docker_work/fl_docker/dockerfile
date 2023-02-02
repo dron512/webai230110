@@ -1,0 +1,7 @@
+FROM python:3.10
+
+COPY ./app.py /app/app.py
+
+RUN pip3 install flask && pip3 install pymysql
+
+CMD ["python3", "/app/app.py"]

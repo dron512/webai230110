@@ -12,8 +12,9 @@ def view():
 
 @app.route("/select")
 def select():
-    res = freeboardmanage.select()
-    print("select 됨",res)
+    page = request.args.get('page')
+    page = 1 if page is None else page
+    res = freeboardmanage.select(int(page))
     return render_template('freeboard/select.html',res=res)
 
 @app.route("/updateform")

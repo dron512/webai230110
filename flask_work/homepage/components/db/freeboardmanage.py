@@ -20,13 +20,17 @@ def selectRow(idx):
     db.close()
     return res
 
-def select():
+def select(page):
     db = pymysql.connect(
         host=host,port=port,
         user=user,password=password,
         db=dbname,charset=charset
     )
-    sql = 'select * from freeboard'
+    startrow = (page-1)*3
+    # 1페이지이면 startrow 가 0 
+    # 2페이지이면 startrow 가 3
+    # 3페이지이면 startrow 가 6
+    sql = f'select * from freeboard order by idx desc limit {startrow},3'
     cursor = db.cursor()
     cursor.execute(sql)
     res = cursor.fetchall()

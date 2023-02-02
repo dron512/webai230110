@@ -1,0 +1,30 @@
+<script>// 함수를 만드는데 매개변수를 넣으면 매개변수의 제곱의 값이 반환되는 함수
+var a = function a(x) {
+  return x * x;
+};
+console.log(a(10));
+console.log(a(3));
+// 4로 나누어 떨어지는 해는 윤년 29...일까지있따.
+// 100으로 나누어 떨어지는해는 윤년이 아니다.
+// 하지만 400으로 나누어 떨어지는해는 윤년이다.
+
+var yon = function yon(year) {
+  var result = "윤년이 아닙니다.";
+  if (year % 4 === 0) {
+    result = "윤년입니다.";
+  }
+  if (year % 100 === 0) {
+    result = "윤년이 아닙니다.";
+  }
+  if (year % 400 === 0) {
+    result = "윤년입니다.";
+  }
+  return result;
+};
+console.log("2000 ".concat(yon(2000)));
+console.log("2001 ".concat(yon(2001)));
+console.log("2002 ".concat(yon(2002)));
+console.log('2003', yon(2003));
+console.log('2004', yon(2004));
+console.log('100', yon(100));
+console.log('400', yon(400));</script>
