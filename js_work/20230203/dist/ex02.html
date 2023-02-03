@@ -1,0 +1,12 @@
+<script>var doA = function doA(x, y) {
+  alert(x);
+  alert(y);
+  for (var _len = arguments.length, array = new Array(_len > 2 ? _len - 2 : 0), _key = 2; _key < _len; _key++) {
+    array[_key - 2] = arguments[_key];
+  }
+  alert(array);
+  alert(array[0]);
+  alert(array[1]);
+  alert(array[2]);
+};
+doA(10, 20, 30, 40, 50, 60);</script>

@@ -17,13 +17,27 @@
         {% endfor %}
     </table>
     <div>
+        <h2>페이지 개수 = {{pageCnt}}</h2>
+        <h2>행 개수 = {{rowCnt}}</h2>
+        <h2>현재페이지 = {{curPage}}</h2>
         <ul id="my-ul" style="display: flex; justify-content: center;">
-            <li><a href="/freeboard/select?page=1">«</a></li>
-            <li><a class="active" href="/freeboard/select?page=1">1</a></li>
-            <li><a href="/freeboard/select?page=2">2</a></li>
-            <li><a href="/freeboard/select?page=3">3</a></li>
-            <li><a href="/freeboard/select?page=4">4</a></li>
-            <li><a href="/freeboard/select?page=4">»</a></li>
+            {% if curPage|int==1 %}
+                <li><a>«</a></li>
+            {% else %}
+                <li><a href="/freeboard/select?page={{curPage|int-1}}">«</a></li>
+            {% endif %}
+            {% for page in range(1,pageCnt+1) %}
+                {% if page|int==curPage|int %}
+                    <li><a class="active" href="/freeboard/select?page={{page}}">{{page}}</a></li>
+                {% else %}
+                    <li><a href="/freeboard/select?page={{page}}">{{page}}</a></li>
+                {% endif %}
+            {% endfor%}
+            {% if curPage|int == pageCnt|int %}
+                <li><a>»</a></li>
+            {% else %}
+                <li><a href="/freeboard/select?page={{curPage|int+1}}">»</a></li>
+            {% endif %}
         </ul>
     </div>
     <style>

@@ -27,9 +27,6 @@ def select(page):
         db=dbname,charset=charset
     )
     startrow = (page-1)*3
-    # 1페이지이면 startrow 가 0 
-    # 2페이지이면 startrow 가 3
-    # 3페이지이면 startrow 가 6
     sql = f'select * from freeboard order by idx desc limit {startrow},3'
     cursor = db.cursor()
     cursor.execute(sql)
@@ -37,6 +34,21 @@ def select(page):
     db.close()
     return res
 
+def selecPageCntRowCnt():
+    db = pymysql.connect(
+        host=host,port=port,
+        user=user,password=password,
+        db=dbname,charset=charset
+    )
+    sql = f'SELECT COUNT(idx) FROM freeboard'
+    cursor = db.cursor()
+    cursor.execute(sql)
+    res = cursor.fetchone()
+    rowCnt = res[0]
+    pageCnt = int(rowCnt / 3)
+    pageCnt = pageCnt if rowCnt%3==0 else pageCnt+1
+    db.close()
+    return pageCnt,rowCnt
 
 def insert(title,content,writer):
     db = pymysql.connect(

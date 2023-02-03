@@ -1,0 +1,22 @@
+<script>
+    function min(x,...ys){
+        let output;
+        let items;
+        if(Array.isArray(x)){
+            output = x[0];
+            items = x;
+        }
+        else if( typeof(x)==='number'){
+            output = x;
+            items = ys;
+        }
+        for (const item of items) {
+            if (output > item){
+                output = item
+            }
+        }
+        return output;
+    }
+    console.log(`min  배열 : ${min(    [52,273,32,103,275,24,57]    )}`);
+    console.log(`min  배열 : ${min(52,273,32,103,275,24,57)}`);
+</script>

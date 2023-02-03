@@ -15,7 +15,8 @@ def select():
     page = request.args.get('page')
     page = 1 if page is None else page
     res = freeboardmanage.select(int(page))
-    return render_template('freeboard/select.html',res=res)
+    pageCnt,rowCnt = freeboardmanage.selecPageCntRowCnt()
+    return render_template('freeboard/select.html',res=res,pageCnt=pageCnt,rowCnt=rowCnt,curPage=page)
 
 @app.route("/updateform")
 def updateform():
