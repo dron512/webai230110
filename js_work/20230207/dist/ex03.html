@@ -1,0 +1,14 @@
+<script>var car = {
+  "연비": 12,
+  "속도": [10, 20, 30, 40, 50],
+  "차종": '경차',
+  "가속": function 가속() {
+    var x = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
+    속도 = 100;
+    console.log("".concat(this.속도[x], " \uC73C\uB85C \uAC00\uC18D \uD569\uC2DC\uB2E4."));
+  }
+};
+console.log(car['연비']);
+console.log(car['속도']);
+console.log(car['차종']);
+car.가속();</script>

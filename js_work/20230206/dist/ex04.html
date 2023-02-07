@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="my-div"></div>
+    <button id="my-dtn">일시정지</button>
+</body>
+</html>
+<script>var $myDiv = document.getElementById('my-div');
+var $myBtn = document.getElementById('my-dtn');
+var cont = 0;
+var test = setInterval(function () {
+  cont += 1;
+  $myDiv.innerHTML = "cont = ".concat(cont.toLocaleString(), " \uCD08");
+}, 1);
+setTimeout(function () {
+  console.log('한번만실행');
+}, 2000);
+$myBtn.addEventListener('click', function () {
+  clearInterval(test);
+});</script>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <label for="a">a</label>
+    <input type="text" name="" id="a"><br>
+    <label for="b">b</label>
+    <input type="text" name="" id="b"><br>
+    <label for="c">c</label>
+    <input type="text" name="" id="c"><br>
+    <label for="d">d</label>
+    <input type="text" name="" id="d"><br>
+    <label for="e">e</label>
+    <input type="text" name="" id="e"><br>
+    <button id="my-btn">제일큰수확인</button>
+    <div id="my-div"></div>
+</body>
+
+</html>
+<script>
+    const $a = document.getElementById('a');
+    const $b = document.getElementById('b');
+    const $c = document.getElementById('c');
+    const $d = document.getElementById('d');
+    const $e = document.getElementById('e');
+
+    const $myBtn = document.getElementById('my-btn');
+    const $myDiv = document.getElementById('my-div');
+
+    // alt + shift + f 자동정렬
+    $myBtn.addEventListener('click', function () {
+        const arr = [Number($a.value),Number($b.value),Number($c.value),Number($d.value),Number($e.value)];
+        console.log(arr);
+        let min = arr[0];
+        for (const ele of arr) {
+            if (min > ele){
+                min = ele
+            }
+        }
+        console.log(min);
+        $myDiv.innerHTML = `min = ${min}`;
+    });
+
+
+</script>

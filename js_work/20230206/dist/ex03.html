@@ -1,0 +1,21 @@
+<script>const arr = [
+    273,
+    53,
+    90,
+    100,
+    220
+];
+const result1 = arr.forEach((i, v, arr)=>{
+    console.log(`i = ${i} v = ${v} arr=${arr}`);
+});
+const result2 = arr.map((i, v, arr)=>{
+    console.log(`i = ${i} v = ${v} arr=${arr}`);
+    return i * i;
+});
+const result3 = arr.filter((value)=>value > 200);
+console.log(`result1 ${result1}`);
+console.log(`result2 ${result2}`);
+console.log(`result3 ${result3}`);
+arr.filter((v)=>v > 99).map((v)=>v * 2).forEach((v)=>console.log(v));
+
+</script><script src="/ex03.9f170715.js"></script>

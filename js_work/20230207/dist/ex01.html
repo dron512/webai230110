@@ -1,0 +1,16 @@
+<script>var arr = ['사과', '배', '바나나', '귤'];
+arr.forEach(function (item) {
+  console.log("item = ".concat(item));
+});
+var arr2 = arr.filter(function (item) {
+  return item.length >= 2;
+});
+console.log(arr2);
+var arr3 = arr.map(function (item) {
+  return item + item;
+});
+console.log(arr3);
+var arr4 = arr.map(function (item) {
+  return item.length;
+});
+console.log(arr4);</script>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="my-div"></div>
+    <button id="my-dtn">일시정지</button>
+</body>
+</html>
+<script>
+    const $myDiv = document.getElementById('my-div');
+    const $myBtn = document.getElementById('my-dtn');
+    let cont = 0;
+    const test = setInterval(() => { 
+        cont += 1;
+        $myDiv.innerHTML = `cont = ${cont.toLocaleString()} 초` ;
+    }, 1);
+    setTimeout(() => { console.log('한번만실행') }, 2000);
+
+    $myBtn.addEventListener('click',()=>{ clearInterval(test) });
+</script>

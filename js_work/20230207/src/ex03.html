@@ -1,0 +1,15 @@
+<script>
+    const car = {
+        "연비":12,
+        "속도":[10,20,30,40,50],
+        "차종":'경차',
+        "가속": function (x=0){ 
+            속도 = 100;
+            console.log(`${this.속도[x]} 으로 가속 합시다.`);
+        },
+    }
+    console.log(car['연비']);
+    console.log(car['속도']);
+    console.log(car['차종']);
+    car.가속();
+</script>
