@@ -1,0 +1,21 @@
+<script>
+    const arr = [{ "name": "홍길동", "age": 20 }, { "name": "김길동", "age": 40 }, { "name": "이길동", "age": 50 }];
+
+    const str = JSON.stringify(arr);
+    console.log(str);
+    console.log(JSON.stringify(arr, null, 2));
+
+    const myobj = JSON.parse(str);
+    console.log(myobj)
+
+    for (const ele of arr) {
+        console.log(`ele.name = ${ele.name}`);
+        console.log(`ele.age = ${ele.age}`);
+    }
+
+    arr.forEach((line) => {
+        console.log(`line.name = ${line.name}`);
+        console.log(`line.age = ${line.age}`);
+    });
+
+</script>

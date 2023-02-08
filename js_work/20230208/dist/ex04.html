@@ -1,0 +1,15 @@
+<script>// String.prototype을 이용해서 문자열안에 포함되는지 안되는지 확인해주는 함수 만들기
+// Array.prototype을 이용해서
+
+String.prototype.포함 = function (data) {
+  return this.indexOf(data) >= 0;
+};
+var myStr = "문자열입니다.";
+console.log("myStr.\uD3EC\uD568(\"\uBB38\") = ".concat(myStr.포함("문")));
+console.log("myStr.\uD3EC\uD568(\"\uC81C\") = ".concat(myStr.포함("제")));
+Array.prototype.포함 = function (data) {
+  return this.indexOf(data) >= 0;
+};
+var arr = [10, 20, 30, 40];
+console.log("arr.\uD3EC\uD568(10) = ".concat(arr.포함(10)));
+console.log("arr.\uD3EC\uD568(20) = ".concat(arr.포함(50)));</script>

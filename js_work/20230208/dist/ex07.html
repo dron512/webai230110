@@ -1,0 +1,24 @@
+<script>var arr = [{
+  "name": "홍길동",
+  "age": 20
+}, {
+  "name": "김길동",
+  "age": 40
+}, {
+  "name": "이길동",
+  "age": 50
+}];
+var str = JSON.stringify(arr);
+console.log(str);
+console.log(JSON.stringify(arr, null, 2));
+var myobj = JSON.parse(str);
+console.log(myobj);
+for (var _i = 0, _arr = arr; _i < _arr.length; _i++) {
+  var ele = _arr[_i];
+  console.log("ele.name = ".concat(ele.name));
+  console.log("ele.age = ".concat(ele.age));
+}
+arr.forEach(function (line) {
+  console.log("line.name = ".concat(line.name));
+  console.log("line.age = ".concat(line.age));
+});</script>

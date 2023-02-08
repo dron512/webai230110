@@ -1,0 +1,14 @@
+<script>var _this = this;
+var test = {
+  a: function a() {
+    console.log(this);
+  },
+  b: function b() {
+    _this.onclick = function () {
+      alert('네이버 페이지로 이동합니다.');
+      this.location = 'http://www.naver.com';
+    };
+  }
+};
+test.a();
+test.b();</script>

@@ -1,0 +1,24 @@
+<script>
+let input =`
+일자,달러,엔
+02,1000,99
+03,2000,88
+04,1005,77
+05,1006,55
+06,100,44
+07,2000,22
+08,3000,33
+09,4000,87
+`;
+console.log(input);
+input = input.trim();
+console.log(input);
+input = input.split('\n');
+for (const item of input) {
+    console.log(item)
+}
+input = input.map((line)=>{return line.split(",")})
+console.log(input);
+console.log(JSON.stringify(input,null,2));
+
+</script>

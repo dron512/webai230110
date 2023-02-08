@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  web:
+    build: .
+    ports:
+      - "8000:5000"
+# docker build -t web .
+# docker run -p 8000:5000 --name web web
+  redis:
+    image: "redis:alpine"
+
+# docker compose up 
+# docker compose up -d 백그라운드실행
+# docker compose stop
+# docker compose down

@@ -1,0 +1,17 @@
+<script>
+    const myObj = {
+        a:"10",
+        b:"20",
+        doA:function(){
+            console.log(`this.a = ${this.a} b = ${this.b}`);
+            console.log(this);
+        }
+    };
+    console.log(myObj);
+    console.log(myObj.doA());
+    const myObj2 = {};
+    console.log(myObj2);
+    // const test = new myObj();
+    // test.doA();
+
+</script>
