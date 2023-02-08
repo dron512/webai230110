@@ -8,6 +8,19 @@
 </head>
 <body>
     <h1>index</h1>
-    <img src="{{ url_for('fig', length=25,weight=150) }}" alt="image" srcset="">
+    <img src="/fig/int25_int150" alt="image" srcset="" id="my-img">
+    <input type="text" name="" id="length">
+    <input type="text" name="" id="weight">
+    <button id="my-btn">버튼</button>
 </body>
 </html>
+<script>
+    const $myImg = document.getElementById('my-img');
+    const $length = document.getElementById('length');
+    const $weight = document.getElementById('weight');
+
+    const $myBtn = document.getElementById('my-btn');
+    $myBtn.addEventListener('click',function(){
+        $myImg.attributes.src = "/fig/int35_int150";
+    });
+</script>

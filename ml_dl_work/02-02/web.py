@@ -1,15 +1,26 @@
-from flask import Flask,render_template, send_file
+from flask import Flask,render_template, send_file,request
 import numpy as np
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from io import BytesIO, StringIO
+import dusrma
 
 app = Flask(__name__)
 
 @app.route("/")
 def index():
     return render_template('index.html')
+
+@app.route("/dusrma")
+def fndusrma():
+    insu = request.args.get("insu")
+    if insu is None or insu == "":
+        insu = 10000 
+    else:
+        insu = int(insu)
+    result = dusrma.dusrma(insu)
+    return render_template('dusrma.html',result=result)
 
 @app.route("/fig/int<length>_int<weight>")
 def fig(length,weight):
@@ -27,6 +38,7 @@ def fig(length,weight):
     plt.scatter(int(length),int(weight))
     
     img = BytesIO()
+    # plt.savefig('a.png')
     plt.savefig(img,format='png')
     img.seek(0)
     return send_file(img,mimetype='image/png')
