@@ -21,6 +21,11 @@
                 const weight = $weight.value || 200;
 
                 $myImg.setAttribute('src',`/fig/int${length}_int${weight}`);
+
+                fetch("predict?length=300&weight=300")
+                .then( (res)=>{
+                    console.log(res.text);
+                } )
             })
         });
     </script>
