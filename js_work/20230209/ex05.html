@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.addEventListener('DOMContentLoaded',()=>{
+            const $button = document.querySelector('button');
+            $button.addEventListener('click',()=>{
+                // alert('누름');
+                const $imgs = document.querySelectorAll('.rect');
+                $imgs.forEach((img,idx)=>{
+                    console.log(`idx = ${idx}`);
+                    // 100,100 = 200,100 = 300,100 = 400,100
+                    // const width = (idx+1)*100;
+                    const width = parseInt((Math.random()*50)+50);
+                    const height = parseInt((Math.random()*50)+150);
+                    img.setAttribute('src',`http://placekitten.com/${width}/${height}`)
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <img src="http://placekitten.com/100/100" alt="" class="rect">
+    <img src="http://placekitten.com/200/200" alt="" class="rect">
+    <img src="http://placekitten.com/300/300" alt="" class="rect">
+    <img src="http://placekitten.com/400/400" alt="" class="rect">
+    <button>버튼</button>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const h1 = (text) => (`<h1>${text}</h1>`)
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const $upmyDiv = document.getElementById('my-div');
+            console.log($upmyDiv);
+            const hih1 = h1('1번 안녕하세요');
+            document.body.innerHTML = document.body.innerHTML + hih1;
+        });
+
+    </script>
+</head>
+
+<body>
+    <script>
+        const hih2 = h1('2번 안녕하세요');
+        document.body.innerHTML += hih2;
+    </script>
+    <div id="my-div"></div>
+    <script>
+        const hih3 = h1('3번 안녕하세요');
+        document.body.innerHTML = document.body.innerHTML + hih3;
+    </script>
+</body>
+
+</html>
+<script>
+    const $downmyDiv = document.getElementById('my-div');
+    console.log($downmyDiv);
+</script>

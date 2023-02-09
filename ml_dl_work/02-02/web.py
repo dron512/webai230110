@@ -36,11 +36,14 @@ def fig(length,weight):
                     7.5, 7.0, 9.7, 9.8, 8.7, 10.0, 9.9, 9.8, 12.2, 13.4, 12.2, 19.7, 19.9]
     plt.scatter(fish_length,fish_weight)
     plt.scatter(int(length),int(weight))
+    plt.xlabel('length')
+    plt.ylabel('weight')
     
     img = BytesIO()
     # plt.savefig('a.png')
     plt.savefig(img,format='png')
     img.seek(0)
+    plt.close()
     return send_file(img,mimetype='image/png')
 
 app.run(debug=True)

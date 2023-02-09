@@ -5,22 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+        document.addEventListener('DOMContentLoaded',()=>{
+            const $myBtn = document.getElementById('my-btn');
+            const $length = document.getElementById('length');
+            const $weight = document.getElementById('weight');
+            const $myImg = document.getElementById('my-img');
+
+            $myBtn.addEventListener('click',()=>{
+
+                console.log($length.value);
+                console.log($weight.value);
+
+                const length = $length.value || 30;
+                const weight = $weight.value || 200;
+
+                $myImg.setAttribute('src',`/fig/int${length}_int${weight}`);
+            })
+        });
+    </script>
 </head>
 <body>
-    <h1>index</h1>
-    <img src="/fig/int25_int150" alt="image" srcset="" id="my-img">
-    <input type="text" name="" id="length">
-    <input type="text" name="" id="weight">
-    <button id="my-btn">버튼</button>
+    <div>
+        <h1>최근접이웃분류기</h1>
+        length <input type="text" name="" id="length">
+        weight <input type="text" name="" id="weight">
+        <button id="my-btn">버튼</button>
+    </div>
+    <img src="/fig/int20_int150" alt="image" srcset="" id="my-img">
 </body>
 </html>
 <script>
-    const $myImg = document.getElementById('my-img');
-    const $length = document.getElementById('length');
-    const $weight = document.getElementById('weight');
-
-    const $myBtn = document.getElementById('my-btn');
-    $myBtn.addEventListener('click',function(){
-        $myImg.attributes.src = "/fig/int35_int150";
-    });
 </script>
