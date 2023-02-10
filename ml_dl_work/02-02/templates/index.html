@@ -22,10 +22,16 @@
 
                 $myImg.setAttribute('src',`/fig/int${length}_int${weight}`);
 
-                fetch("predict?length=300&weight=300")
+                fetch(`predict?length=${length}&weight=${weight}`)
                 .then( (res)=>{
-                    console.log(res.text);
-                } )
+                    return res.json();
+                }) 
+                .then( (data)=>{
+                    console.log(data.race);
+                    const $p = document.querySelector('p');
+                    // $p.textContent = data.race;
+                    $p.innerHTML = `<h1>${data.race}</h1>`;
+                })
             })
         });
     </script>
@@ -36,6 +42,7 @@
         length <input type="text" name="" id="length">
         weight <input type="text" name="" id="weight">
         <button id="my-btn">버튼</button>
+        <p></p>
     </div>
     <img src="/fig/int20_int150" alt="image" srcset="" id="my-img">
 </body>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let count = 0;
+        let $button = null;
+        const counterfn = () => {
+            const $span = document.querySelector('span');
+            // alert('눌렀냐');
+            $span.innerHTML = (++count);
+            if (count % 10 == 0) {
+                alert('좋네요');
+            }
+        };
+        const addEventfn = ()=> { 
+            document.querySelector('h2').textContent = '이벤트 연결 True';
+            document.querySelector('h2').style.textDecoration = 'none';
+            document.querySelector('h2').style.color = '#333';
+            $button.addEventListener('click',counterfn);
+        }
+        const removeEventfn = ()=> { 
+            document.querySelector('h2').textContent = '이벤트 연결 False';
+            document.querySelector('h2').style.color = '#666';
+            document.querySelector('h2').style.textDecoration = 'line-through';
+            $button.removeEventListener('click',counterfn);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            $button = document.querySelector('button');
+
+            const $addEvent = document.querySelector('#addEvent');
+            const $removeEvent = document.querySelector('#removeEvent');
+            $button.addEventListener('click', counterfn);
+            $addEvent.addEventListener('click', addEventfn);
+            $removeEvent.addEventListener('click', removeEventfn);
+        });
+    </script>
+</head>
+
+<body>
+    <div>
+        <h1>클릭횟수 : <span>0</span> </h1>
+        <h2>이벤트 연결 : true</h2>
+        <button id="count">버튼</button>
+        <button id="addEvent">연결</button>
+        <button id="removeEvent">연결해제</button>
+    </div>
+</body>
+
+</html>

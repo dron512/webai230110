@@ -1,4 +1,4 @@
-from flask import Flask,render_template, send_file,request
+from flask import Flask,render_template, send_file, request, jsonify
 import numpy as np
 import matplotlib
 matplotlib.use('Agg')
@@ -31,7 +31,7 @@ def predict():
     length = request.args.get('length')
     weight = request.args.get('weight')
     result = knr.predict([[int(length),int(weight)]])
-    return f"{result}"
+    return jsonify({"race":result[0]})
 
 @app.route("/dusrma")
 def fndusrma():

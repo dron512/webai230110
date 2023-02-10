@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{ color :white}
+    </style>
+    <script>
+        /*
+            스타일,내용,속성바꾸기
+            style, textContent, innerHTML, setAttribute
+        */
+        document.addEventListener('DOMContentLoaded', () => {
+
+            document.body.style.backgroundColor = "#ff5555";
+
+            const $myColor = document.querySelector('#my-color');
+            const $h1 = document.querySelector('h1');
+            
+            $myColor.addEventListener('change', () => { 
+                $h1.textContent = "배경 색깔 : "+$myColor.options[$myColor.selectedIndex].value;
+
+                if ( $myColor.selectedIndex ==0 ) document.body.style.backgroundColor = "#ff5555";
+                else if( $myColor.selectedIndex ==1 ) document.body.style.backgroundColor = "#e7b938";
+                else if( $myColor.selectedIndex ==2 ) document.body.style.backgroundColor = "#5555ff";
+            });
+
+            const $btn = document.querySelector('button');
+            const $img = document.querySelector('img');
+            const $width = document.querySelector('#width');
+            const $height = document.querySelector('#height');
+            $btn.addEventListener('click',()=>{
+                $img.setAttribute('src',`https://placekitten.com/${$width.value}/${$height.value}`);
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <h1>배경 색깔 : 빨간색</h1>
+    <div id="my-div">
+        <select name="mycolor" id="my-color">
+            <option value="빨간색">빨간색</option>
+            <option value="노란색">노란색</option>
+            <option value="파란색">파란색</option>
+        </select>
+    </div>
+    <div>
+        width: <input type="text" name="" id="width">
+        height: <input type="text" name="" id="height">
+        <button>이미지 가져오기</button>
+        <div style="padding: 1rem;">
+            <img src="https://placekitten.com/100/100">
+        </div>
+    </div>
+</body>
+
+</html>

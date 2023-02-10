@@ -12,7 +12,7 @@ fish_weight = [242.0, 290.0, 340.0, 363.0, 430.0, 450.0, 500.0, 390.0, 450.0, 50
                 700.0, 725.0, 720.0, 714.0, 850.0, 1000.0, 920.0, 955.0, 925.0, 975.0, 950.0, 6.7, 
                 7.5, 7.0, 9.7, 9.8, 8.7, 10.0, 9.9, 9.8, 12.2, 13.4, 12.2, 19.7, 19.9]
 fish_data = np.column_stack((fish_length,fish_weight))
-fish_target = np.concatenate((np.ones(35),np.zeros(14)))
+fish_target = np.concatenate((['bream']*35,['smelt']*14))
 
 train_input, test_input, train_target, test_target = train_test_split(fish_data,fish_target,random_state=42)
 
@@ -22,12 +22,30 @@ print(test_input.shape)
 print(train_input[:5])
 print(test_input[:5])
 
-plt.scatter(train_input[:,0],train_input[:,1])
-plt.scatter(test_input[:,0],test_input[:,1])
-plt.scatter(25,150,marker='^')
-plt.show()
+
 
 knr = KNeighborsClassifier()
 knr.fit(train_input,train_target)
 result = knr.predict([[25,150]])
 print(result)
+
+# (원값 - 평균값)/표준점수
+fish_scaled = (fish_data - np.mean(fish_data,axis=0)) / np.std(fish_data,axis=0)
+print(fish_scaled[:5])
+
+new = (np.array([25,150]) - np.mean(fish_data,axis=0)) / np.std(fish_data,axis=0)
+print(new)
+
+# 기계학습 진행
+knr = KNeighborsClassifier()
+knr.fit(fish_scaled,fish_target)
+
+result = knr.predict([new])
+print(result)
+
+distances,indexs = knr.kneighbors([new])
+
+plt.scatter(fish_scaled[:,0],fish_scaled[:,1])
+plt.scatter(new[0],new[1],marker='^')
+plt.scatter(fish_scaled[indexs,0],fish_scaled[indexs,1],marker='D')
+plt.show()
