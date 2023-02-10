@@ -12,4 +12,4 @@ services:
       - --character-set-server=utf8mb4
       - --collation-server=utf8mb4_unicode_ci
     volumes:
-      - ./data/:/var/lib/mysql # -v 옵션 (다렉토리 마운트 설정)
+      - ./data/:/var/lib/mysql # -v 옵션 (디렉토리 마운트 설정)
