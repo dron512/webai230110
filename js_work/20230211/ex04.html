@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #adiv{
+            position: relative;
+            width: 300px;
+            height: 300px;
+            border: 1px solid #333;
+        }
+        h1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const $h1 = document.querySelector('h1');
+            const $h2 = document.querySelector('h2');
+            const $button = document.querySelector('button');
+            let cont = 0;
+            const moveStar = (e) => {
+                console.log(e.keyCode);
+                console.log(window.getComputedStyle($h1).left)
+                console.log(parseInt(window.getComputedStyle($h1).left))
+                let x = parseInt(window.getComputedStyle($h1).left);
+                let y = parseInt(window.getComputedStyle($h1).top);
+                if (e.keyCode === 37){
+                    $h1.style.left = (x - 10) + 'px';
+                }
+                else if (e.keyCode === 38){
+                    $h1.style.top = (y - 10) + 'px';
+                }
+                else if (e.keyCode === 39){
+                    $h1.style.left = (x + 10) + 'px';
+                    cont++;
+                }
+                else if (e.keyCode === 40){
+                    $h1.style.top = (y + 10) + 'px';
+                }
+                console.log('h2');
+                if(cont ==10){
+                    $h2.innerHTML = `${cont} 누름`;
+                }
+            };
+            document.addEventListener('keydown', moveStar);
+            setInterval( ()=>{ 
+                let x = parseInt(window.getComputedStyle($h1).left);
+                let y = parseInt(window.getComputedStyle($h1).top);
+                if ( parseInt($h1.style.left) > 250){
+                    console.log('도착');
+                    $h1.style.top = (y + 3) + 'px';
+                }else{
+                    $h1.style.left = (x + 3) + 'px';
+                }
+            } ,20);
+            $button.addEventListener('click',()=>{
+                $h1.style.left = '0px';
+                $h1.style.top = '0px';
+            })
+            // up 38 down 40 left 37 right 39
+        });
+    </script>
+</head>
+
+<body>
+    <div id="adiv">
+        <h1>✨</h1>
+    </div>
+    <h2></h2>
+    <div id="bdiv">
+        <button>리셋</button>
+    </div>
+</body>
+
+</html>
