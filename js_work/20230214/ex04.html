@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            
+            const $input = document.querySelector('input');
+            const $p = document.querySelector('p');
+
+            const isEmail = (value) => {
+
+                const re = new RegExp("([A-Za-z1-9])+[@][A-Za-z1-9]+[.][A-Za-z1-9]+");
+                const result = re.test(value);
+                console.log(result);
+
+                // const arr = value.split('@');
+                // console.log(`arr[0] =  ${arr[0]}`)
+                // console.log(`arr[1] =  ${arr[1]}`)
+                // console.log(`arr[1].indexOf('n') ${arr[1].indexOf('n')}`)
+                // console.log(`arr[1].indexOf('.') ${arr[1].indexOf('.')}`)
+
+                return value.indexOf('@') > 1 && value.split('@')[1].indexOf('.') > 1;
+            };
+
+            $input.addEventListener('keyup', (event) => {
+                const value = $input.value;
+                if (isEmail(value)) { $p.style.color = 'green'; $p.textContent = '이메일 형식입니다.'; }
+                else { $p.style.color = 'red'; $p.textContent = '이메일 형식이 아닙니다.'; }
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+    <input type="text">
+    <p></p>
+</body>
+
+</html>

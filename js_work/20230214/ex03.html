@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.addEventListener('DOMContentLoaded',()=>{
+            const $input = document.querySelector('input');
+            const $p = document.querySelector('p');
+            const $button = document.querySelector('button');
+
+            $button.addEventListener('click',()=>{
+                const value = $input.value;
+                if(isNaN(value)){
+                    $p.textContent = '숫자 입력하세요';
+                    return 
+                }
+
+                const cm = `${value *2.54} cm`;
+                $p.textContent = cm;
+            })
+            
+        });
+    </script>
+</head>
+<body>
+    <input type="text">inch
+    <p></p>
+    <button>변환</button>
+</body>
+</html>
