@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const $num1 = document.querySelector('#num1');
+            const $num2 = document.querySelector('#num2');
+            const $num3 = document.querySelector('#num3');
+            const $num4 = document.querySelector('#num4');
+            const $num5 = document.querySelector('#num5');
+            const $desc = document.querySelector('#desc');
+            const $asc = document.querySelector('#asc');
+            const $h1 = document.querySelector('h1');
+
+            const nums = {};
+            console.log(nums);
+
+            const numsadd = (e) => {
+                nums[e.currentTarget.id] = parseInt(e.currentTarget.value);
+                console.log(nums);
+            }
+
+            $num1.addEventListener('keyup', numsadd)
+            $num2.addEventListener('keyup', numsadd)
+            $num3.addEventListener('keyup', numsadd)
+            $num4.addEventListener('keyup', numsadd)
+            $num5.addEventListener('keyup', numsadd)
+
+            $desc.addEventListener('click', () => {
+                const list = [nums.num1, nums.num2, nums.num3, nums.num4, nums.num5];
+                for (let last = 5; last > 0; last--) {
+                    for (let i = 0; i < last; i++) {
+                        if (list[i] > list[i + 1]) {
+                            let temp = list[i];
+                            list[i] = list[i + 1];
+                            list[i + 1] = temp;
+                        }
+                    }
+                }
+                console.log(list);
+                $h1.textContent = list.join(',');
+            });
+            $asc.addEventListener('click', () => {
+
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+    <!-- 5개 숫자를 입력받아..-->
+    <!-- 버튼을 눌렀을시에 입력했는 숫자를 내림차순 올림차순으로 정렬 -->
+    <div>
+        num1 = <input type="text" name="" id="num1">
+    </div>
+    <div>
+        num2 = <input type="text" name="" id="num2">
+    </div>
+    <div>
+        num3 = <input type="text" name="" id="num3">
+    </div>
+    <div>
+        num4 = <input type="text" name="" id="num4">
+    </div>
+    <div>
+        num5 = <input type="text" name="" id="num5">
+    </div>
+    <div>
+        <button id="desc">내림차순</button>
+        <button id="asc">오름차순</button>
+    </div>
+    <h1></h1>
+</body>
+
+</html>

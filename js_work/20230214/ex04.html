@@ -15,7 +15,7 @@
 
             const isEmail = (value) => {
 
-                const re = new RegExp("([A-Za-z1-9])+[@][A-Za-z1-9]+[.][A-Za-z1-9]+");
+                const re = new RegExp("([A-Za-z1-9])+[@]+[A-Za-z1-9]+[.]+[A-Za-z1-9]+");
                 const result = re.test(value);
                 console.log(result);
 

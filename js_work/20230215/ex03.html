@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.addEventListener('DOMContentLoaded',()=>{
+            const $output = document.querySelector('#output');
+            const $radios = document.querySelectorAll("input[name='pet']");
+
+            $radios.forEach((radio)=>{
+                console.log(radio);
+                radio.addEventListener('change',(event)=>{
+                    if( event.currentTarget.checked )
+                        $output.textContent = `종아하는 애완 동물은 ${event.currentTarget.value} 이시군요!`;
+                })
+            })
+        });
+    </script>
+</head>
+<body>
+    <h3>#좋아하는 동물을 선택해주세요</h3>
+    <input type="radio" name="pet" value="고양이">고양이
+    <input type="radio" name="pet" value="개">개
+    <input type="radio" name="pet" value="햄스터">햄스터
+    <input type="radio" name="pet" value="기타">기타
+    <hr>
+    <h3 id="output"></h3>
+</body>
+</html>
