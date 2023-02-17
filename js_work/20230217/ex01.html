@@ -39,6 +39,11 @@
                     $h3.textContent = 'higher';
                 else
                     $h3.textContent = `Congratulations, you are right. ${list.length} times.`;
+                
+                if (list.length ===10){
+                    $input.setAttribute('disabled','true');
+                    $button.setAttribute('disabled','true');
+                }
             })
         });
     </script>
