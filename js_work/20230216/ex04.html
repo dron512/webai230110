@@ -1,0 +1,17 @@
+<script>
+    const doA = ()=>{
+        try {
+            console.log('aaa');
+            throw '강제 예외 발생';
+            console.log('bbb');
+        } catch (error) {
+            console.log(error);
+            return;
+        }
+        finally{
+            console.log("finally...");
+        }
+        console.log('last...');
+    }
+    doA();
+</script>

@@ -46,7 +46,10 @@
                 $h1.textContent = list.join(',');
             });
             $asc.addEventListener('click', () => {
-
+                const list = [nums.num1, nums.num2, nums.num3, nums.num4, nums.num5];
+                list.sort((a,b)=>b-a);
+                console.log(list);
+                $h1.textContent = list.join(',');
             });
 
         });

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.addEventListener('DOMContentLoaded',()=>{
+            const $input = document.querySelector('input');
+            const $h1 = document.querySelector('h1');
+            let timerId;
+
+            $input.addEventListener('focus',()=>{
+                console.log('focus 됨');
+                timerId = setInterval( ()=>{ 
+                    const length = $input.value.length;
+                    $h1.textContent = `글자수 : ${length}`;
+                    console.log('세리고있음');
+                },50);
+            });
+            $input.addEventListener('blur',()=>{
+                console.log('blur 됨');
+                clearInterval(timerId);
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>글자수 : </h1>
+    <input type="text">
+</body>
+</html>
