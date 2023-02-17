@@ -43,6 +43,8 @@
                 if (list.length ===10){
                     $input.setAttribute('disabled','true');
                     $button.setAttribute('disabled','true');
+                    $h3.textContent = `you dont have opportunity. ${list.length} times.`;
+                    $h3.style.color = '#c00';
                 }
             })
         });
