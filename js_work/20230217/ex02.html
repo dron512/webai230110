@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <th>이름</th>
+            <th>국어</th>
+            <th>영어</th>
+            <th>수학</th>
+            <th>과학</th>
+            <th>총점</th>
+            <th>평균</th>
+        </tr>
+    </table>
+    <button>추가</button>
+</body>
+
+</html>
+<script>
+    const $table = document.querySelector('table');
+    const $button = document.querySelector('button');
+
+    const getSum = (s)=> { return s.국어 + s.영어+s.수학+s.과학; };
+    const getAvg = (s)=> { return getSum(s)/4; };
+
+
+    $button.addEventListener('click', () => {
+        const students = []
+        students.push({ 이름: '구름', 국어: 87, 영어: 98, 수학: 95, 과학: 80 });
+        students.push({ 이름: '별이', 국어: 80, 영어: 78, 수학: 85, 과학: 75 });
+        students.push({ 이름: '겨울', 국어: 78, 영어: 88, 수학: 80, 과학: 60 });
+        students.push({ 이름: '바다', 국어: 75, 영어: 90, 수학: 90, 과학: 85 });
+        // console.log(JSON.stringify(students,null,2));
+
+        students.forEach((obj) => {
+            const $tr = document.createElement('tr');
+
+            const $tdName = document.createElement('td');
+            $tdName.textContent = obj.이름;
+
+            const $tdKor = document.createElement('td');
+            $tdKor.textContent = obj.국어;
+
+            const $tdEng = document.createElement('td');
+            $tdEng.textContent = obj.영어;
+
+            const $tdMath = document.createElement('td');
+            $tdMath.textContent = obj.수학;
+
+            const $tdScy = document.createElement('td');
+            $tdScy.textContent = obj.과학;
+
+            const $tdSum = document.createElement('td');
+            $tdSum.textContent = getSum(obj);
+
+            const $tdAvg = document.createElement('td');
+            $tdAvg.textContent = getAvg(obj);
+
+            $tr.appendChild($tdName);
+            $tr.appendChild($tdKor);
+            $tr.appendChild($tdEng);
+            $tr.appendChild($tdMath);
+            $tr.appendChild($tdScy);
+            $tr.appendChild($tdSum);
+            $tr.appendChild($tdAvg);
+            $table.appendChild($tr);
+        })
+    });
+
+    // fetch(``).then(result = > result.json()).then( students = result);
+
+
+</script>
