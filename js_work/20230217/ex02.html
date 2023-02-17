@@ -28,9 +28,8 @@
     const $table = document.querySelector('table');
     const $button = document.querySelector('button');
 
-    const getSum = (s)=> { return s.국어 + s.영어+s.수학+s.과학; };
-    const getAvg = (s)=> { return getSum(s)/4; };
-
+    // const getSum = (s)=> { return s.국어 + s.영어+s.수학+s.과학; };
+    // const getAvg = (s)=> { return getSum(s)/4; };
 
     $button.addEventListener('click', () => {
         const students = []
@@ -40,29 +39,28 @@
         students.push({ 이름: '바다', 국어: 75, 영어: 90, 수학: 90, 과학: 85 });
         // console.log(JSON.stringify(students,null,2));
 
-        students.forEach((obj) => {
-            const $tr = document.createElement('tr');
+        students.forEach((obj)=>{
+            obj.getSum = (s)=>{ return s.국어 + s.영어+s.수학+s.과학; };
+            obj.getAvg = (s)=>{ return s.getSum(s)/4; };
+        })
 
+        students.forEach((obj) => {
+            console.log(obj);
+            const $tr = document.createElement('tr');
             const $tdName = document.createElement('td');
             $tdName.textContent = obj.이름;
-
             const $tdKor = document.createElement('td');
             $tdKor.textContent = obj.국어;
-
             const $tdEng = document.createElement('td');
             $tdEng.textContent = obj.영어;
-
             const $tdMath = document.createElement('td');
             $tdMath.textContent = obj.수학;
-
             const $tdScy = document.createElement('td');
             $tdScy.textContent = obj.과학;
-
             const $tdSum = document.createElement('td');
-            $tdSum.textContent = getSum(obj);
-
+            $tdSum.textContent = obj.getSum(obj);
             const $tdAvg = document.createElement('td');
-            $tdAvg.textContent = getAvg(obj);
+            $tdAvg.textContent = obj.getAvg(obj);
 
             $tr.appendChild($tdName);
             $tr.appendChild($tdKor);

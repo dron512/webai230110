@@ -1,0 +1,24 @@
+<script>
+    class Car{
+        constructor(name){
+            this.name = name
+            console.log(`생성자 호출`);
+        }
+        getDrive(){
+            console.log('getDrive');
+        }
+        toString(){
+            console.log(this.name +'toString');
+            return `ToString`;
+        }
+    }
+
+    const car = new Car();
+    car.getDrive();
+    car.toString();
+
+    const cars = [new Car('기아자동차'),new Car('현대자동차'),new Car('르노삼성자동차')];
+    cars.forEach((obj)=>{
+        obj.toString();
+    })
+</script>
