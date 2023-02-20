@@ -1,0 +1,29 @@
+<script>
+    class Retangle{
+        constructor(width,height){
+            this.width = width;
+            this.height = height;
+        }
+        setWidth(width){
+            if (width < 0) throw 'width는 0보다 작을수 없습니다.';
+            this.width = width;
+        }
+        getPerimeter(){
+            return 2* (this.width+this.height);
+        }
+        getArea(){
+            return this.width*this.height;
+        }
+        print(){
+            console.log(`둘레는 ${this.getPerimeter()} 넓이는 ${this.getArea()}`);
+        }
+        toString(){
+            return "test";
+        }
+    }
+    const a = new Retangle(10,20);
+    a.print();
+    // a.setWidth(-10);
+    a.print();
+    console.log(a);
+</script>

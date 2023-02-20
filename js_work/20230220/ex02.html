@@ -1,0 +1,34 @@
+<script>
+    class Retangle{
+        constructor(width,height){
+            this.width = width;
+            this.height = height;
+        }
+
+        getPerimeter(){
+            return 2* (this.width+this.height);
+        }
+        getArea(){
+            return this.width*this.height;
+        }
+    }
+
+    const retangle1 = new Retangle(20,30);
+    console.log(`retangle1 사각형의 둘레 ${retangle1.getPerimeter()}`);
+    console.log(`retangle1 사각형의 넓이 ${retangle1.getArea()}`);
+
+    const retangle2 = new Retangle(10,20);
+    console.log(`retangle2 사각형의 둘레 ${retangle2.getPerimeter()}`);
+    console.log(`retangle2 사각형의 넓이 ${retangle2.getArea()}`);
+
+    const list = [];
+    list.push(retangle1);
+    list.push(retangle2);
+
+    console.log(list);
+
+    list.forEach( r => {
+        console.log(`r 사각형의 둘레 ${r.getPerimeter()}`);
+        console.log(`r 사각형의 넓이 ${r.getArea()}`);
+    });
+</script>
