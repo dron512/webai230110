@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        class Person{
+            constructor(name,age){
+                this.name = name;
+                this.age = age;
+            }
+        }
+        const list = [];
+        document.addEventListener("DOMContentLoaded",()=>{
+            const $name = document.querySelector('#name');
+            const $age = document.querySelector('#age');
+            const $button = document.querySelector('button');
+            const $table = document.querySelector('table');
+
+            $button.addEventListener("click",()=>{
+                list.push(new Person($name.value,$age.value));
+
+                while($table.hasChildNodes()){
+                    $table.removeChild($table.firstChild);
+                }                
+
+                list.forEach((person)=>{
+                    const tr = document.createElement('tr');
+                    const tdName = document.createElement('td');
+                    tdName.textContent = '이름 '+person.name;
+                    const tdAge = document.createElement('td');
+                    tdAge.textContent = person.age+' 살'
+
+                    tr.appendChild(tdName);
+                    tr.appendChild(tdAge);
+                    $table.appendChild(tr);
+                })
+            });
+        });
+    </script>
+</head>
+<body>
+    이름 <input type="text" id="name"><br>
+    나이 <input type="text" id="age">
+    <button>추가하기</button>
+    <table border="1"></table>
+</body>
+</html>
