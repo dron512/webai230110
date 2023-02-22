@@ -14,7 +14,7 @@ const Counter = () => {
       <p>Counter 입니다.</p>
       <button style={mybtn} onClick={addbtn}>+</button>
       <span id="span" style={{margin:"0 .5rem"}}> {number} </span>
-      <button style={mybtn} onClick={subbtn}>-</button>
+      <button style={mybtn} onClick={subbtn}>+</button>
     </div>
   );
 };
