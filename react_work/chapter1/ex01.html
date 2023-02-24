@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .aa { background-color: red;}
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded",()=>{
+            const text = document.createElement('p');
+            text.textContent = "Hello World";
+            text.classList.add('aa');
+            const $gil = document.getElementById('gil');
+            $gil.appendChild(text);
+        });
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            const text1 = $("<p>").text('jquery Hello Wolrd');
+            text1.attr('class','aa');
+            $('#gil').append(text1);
+        })
+    </script>
+</head>
+<body>
+    <div id="gil"></div>
+</body>
+</html>
