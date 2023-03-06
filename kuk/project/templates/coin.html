@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+            // <iframe src="../ascend.mp3" allow="autoplay" id="audio" style="display: none">여기</iframe>
+        document.addEventListener("DOMContentLoaded",()=>{
+            const $img = document.querySelector('img');
+            const mygr = setInterval(()=>{
+                let test = [parseInt(Math.random()*100),parseInt(Math.random()*100),parseInt(Math.random()*100),parseInt(Math.random()*100),parseInt(Math.random()*100),parseInt(Math.random()*100),parseInt(Math.random()*100),parseInt(Math.random()*100),parseInt(Math.random()*100),parseInt(Math.random()*100)]
+                $img.src = `/figbar/${test}`;
+            },5000)
+        })
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Roboto+Slab&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap');
+    </style>
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+            font-family: sans-serif, 'Nanum Gothic Coding', 'Do Hyeon';
+            position: relative;
+        }
+
+        #parent {
+            margin-left: 50px;
+            margin-top: 20px;
+            width: 95%;
+            height: 900px;
+            background-color: rgb(255, 255, 255);
+            position: relative;
+        }
+
+        #inputCoinname {
+            padding-left : 10px;
+            color: rgb(255, 255, 255);
+            right: 30px;
+            width: 17rem;
+            height: 16rem;
+            top:30px;
+            border-color: black;
+            font-size: 8px;
+            position: absolute;
+            border: 1px solid black;
+            background-color: rgb(49, 50, 150);
+            
+        }
+
+        #output {
+            text-align: center;
+            width: 1450px;
+            height: 300px;
+            font-size: 23px;
+            color: rgb(255, 255, 255);
+            /* margin-top: 5rem; */
+            margin-bottom:50px;
+            padding-left: 10px;
+            position: absolute;
+            border: 1px solid black;
+            bottom: 0px;
+            left:25px;
+            /* left: 50%;
+            margin-left: -870px; */
+            background-color: rgb(49, 50, 150);
+        }
+        #submit-btn{
+            align-content: right ;
+            float:right;
+            margin-right:15px;
+            border-radius: 10px;
+        }
+        #chart{
+            top:-35px;
+            left:-50px;
+            position:absolute;
+        }
+        #coin-infos2{
+            right:30px;
+            bottom:45px;
+            position: absolute;
+        }
+        #coin-infos1{
+            right:180px;
+            bottom:45px;
+            position: absolute;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div id="chart">
+            <img src="{{ url_for('figbar', floatnowval=floatnowval) }}" alt="Image Placeholder" width=1690px, height=590px>
+        </div>
+        <form action="coin"> 
+        <!-- /coin 으로 보냄 -->
+            <!-- method="post" 지우니까 잘됨 ;;; -->
+            <div id="inputCoinname">
+                <h1>영문 가상화폐명 입력</h1>
+                <input type="text" name="coinN" style="width:250px;">
+                <h1>상방선</h1>
+                <input type="text" name="ascend" style="width:250px;">
+                <h1>하방선</h1>
+                <input type="text" name="descend" style="width:250px;"><br><br><br>
+                <input type="submit" id="submit-btn" value="제출" style="width:60px; font-size: 1rem;">
+            </div>  
+        </form>
+        <div id="output">
+            <h1>　{{coinName}}</h1>
+            <output type="text" name="cnffur" id="respond">　상방 = ₩{{ascend}} (GAP : )</output><br><br>
+            <output type="text" name="cnffur" id="respond">　현재 ≈ {{nowVal}}</output><br><br>
+            <output type="text" name="cnffur" id="respond">　하방 = ₩{{descend}} (GAP : )</output>
+        </div>
+        <div id="coin-infos1">
+            <div id="coin-info-bitcoin">
+                <a href="coin-info-bitcoin"><img src="http://127.0.0.1:5000/static/images/bitcoin.png" width="120px" height="120px"/></a>
+            </div>
+            <div id="coin-info-ethereum">
+                <img src="http://127.0.0.1:5000/static/images/ethereum.png" width="120px" height="120px"/>
+            </div>
+            <div id="coin-info-xrp">
+                <img src="http://127.0.0.1:5000/static/images/xrp.png" width="120px" height="120px"/>
+            </div>
+        </div>
+        <div id="coin-infos2">
+            <div id="coin-info-cardano">
+                <img src="http://127.0.0.1:5000/static/images/cardano.png" width="120px" height="120px"/>
+            </div>
+            <div id="coin-info-dogecoin">
+                <img src="http://127.0.0.1:5000/static/images/dogecoin.png" width="120px" height="120px"/>
+            </div>
+            <div id="coin-info-polygon">
+                <img src="http://127.0.0.1:5000/static/images/polygon.png" width="120px" height="120px"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
