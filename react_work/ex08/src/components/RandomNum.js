@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 const RandomNum = () => {
+    console.log("test");
     const [winlose, setWinLose] = useState([0, 0, 0]);
     const [num, setNum] = useState(0);
     const getNum = () => {

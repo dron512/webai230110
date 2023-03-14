@@ -13,4 +13,6 @@ const Counter = ({ name }) => {
     );
 };
 
+export const AA = ()=>{ return (<div><h1>aa</h1></div>)}
+
 export default Counter;
