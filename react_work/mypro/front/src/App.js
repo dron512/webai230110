@@ -1,6 +1,6 @@
 import './App.css';
-
 import React, { useState } from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
 function App() {
     const [data, setData] = useState([{ bk_name: 'aaa' }, { bk_name: 'aaaa' }]);
@@ -18,24 +18,37 @@ function App() {
             .then((getdata) => {
                 console.log(...data);
                 console.log(...getdata);
-                const myresult = [...data,...getdata];
+                const myresult = [...data, ...getdata];
                 setData(myresult);
             });
     };
     return (
-        <div className="App">
-            <header className="App-header">
-                <button onClick={rootfn}>버튼1</button>
-                <button onClick={rootfn1}>버튼2</button>
-                <div>
-                    <ul>
-                        {data.map((obj) => {
-                            return <h2>{obj.bk_name}</h2>;
-                        })}
-                    </ul>
-                </div>
-            </header>
-        </div>
+        // npm install styled-jsx
+        <>
+            <Container>
+                <Row className='p-1'>
+                    <Col className="" xs={4}>
+                        <a href="/" className='p-2'><h1>MY HOME PAGE</h1></a>
+                    </Col>
+                    <Col className="" xs={3}></Col>
+                    <Col className="d-flex justify-content-end" xs={5}>
+                        <a href="" className='p-3'><h2>홈</h2></a>
+                        <a href="" className='p-3'><h2>사이트맵</h2></a>
+                    </Col>
+                </Row>
+            </Container>
+            <Container fluid className='p-3' style={{backgroundColor:"rgba(220,20,0,0.5)"}}>
+                <Container>
+                    <Row className='justify-content-center'>
+                        <Col className='text-white' style={{fontSize:"1.2rem",padding:"0 3rem"}}>대회 안내</Col>
+                        <Col className='text-white' style={{fontSize:"1.2rem",padding:"0 3rem"}}>코스 소개</Col>
+                        <Col className='text-white' style={{fontSize:"1.2rem",padding:"0 3rem"}}>참가신청/확인</Col>
+                        <Col className='text-white' style={{fontSize:"1.2rem",padding:"0 3rem"}}>대회기록</Col>
+                        <Col className='text-white' style={{fontSize:"1.2rem",padding:"0 3rem"}}>알림마당</Col>
+                    </Row>
+                </Container>
+            </Container>
+        </>
     );
 }
 
