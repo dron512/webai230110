@@ -1,6 +1,9 @@
 import './App.css';
 import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import MyNav from './components/MyNav';
+import { Route, Routes } from 'react-router-dom';
+
 
 function App() {
     const [data, setData] = useState([{ bk_name: 'aaa' }, { bk_name: 'aaaa' }]);
@@ -48,6 +51,12 @@ function App() {
                     </Row>
                 </Container>
             </Container>
+            <Container>
+                <MyNav/>
+            </Container>
+            <Routes>
+                <Route path='/home' element={<MyNav></MyNav>}></Route>
+            </Routes>
         </>
     );
 }
