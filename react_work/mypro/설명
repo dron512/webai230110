@@ -1,0 +1,8 @@
+front 만드는 방법
+npx create-react-app front
+
+back 만드는 방법
+npm init
+npm install express mysql cors
+.gitignore 파일에서 node_modules 넣어서 git hub에 올리지 않도록 한다.
+
