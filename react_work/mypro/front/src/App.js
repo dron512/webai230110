@@ -51,12 +51,6 @@ function App() {
                     </Row>
                 </Container>
             </Container>
-            <Container>
-                <MyNav/>
-            </Container>
-            <Routes>
-                <Route path='/home' element={<MyNav></MyNav>}></Route>
-            </Routes>
         </>
     );
 }

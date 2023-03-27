@@ -1,31 +1,31 @@
-import { useState } from 'react';
+import { memo, useState } from 'react';
 import { Container, Form } from 'react-bootstrap';
 
 let startnum, endnum;
 
-const Ex04 = () => {
+const Ex04 = memo(() => {
   const [out, setOut] = useState('1*1=1\n1*2=2');
   const setStart = (e) => {
     startnum = e.target.value;
     console.log(`start stnum = ${startnum} ennum = ${endnum}`);
-    if ( startnum ==='undefined' || endnum === 'undefined' ) return;
-    let localOut = "";
-    for ( let i = startnum; i<=endnum; i++ ){
-        for ( let j = 1; j<10; j++ ){
-           localOut += `${i} * ${j} = ${i*j}\n`;
-        }
+    if (startnum === 'undefined' || endnum === 'undefined') return;
+    let localOut = '';
+    for (let i = startnum; i <= endnum; i++) {
+      for (let j = 1; j < 10; j++) {
+        localOut = localOut + `${i} * ${j} = ${i * j}\n`;
+      }
     }
     setOut(localOut);
   };
   const setEnd = (e) => {
     endnum = e.target.value;
     console.log(`end stnum = ${startnum} ennum = ${endnum}`);
-    if ( startnum ==='undefined' || endnum === 'undefined' ) return;
-    let localOut = "";
-    for ( let i = startnum; i<=endnum; i++ ){
-        for ( let j = 1; j<10; j++ ){
-           localOut += `${i} * ${j} = ${i*j}\n`;
-        }
+    if (startnum === 'undefined' || endnum === 'undefined') return;
+    let localOut = '';
+    for (let i = startnum; i <= endnum; i++) {
+      for (let j = 1; j < 10; j++) {
+        localOut = localOut + `${i} * ${j} = ${i * j}\n`;
+      }
     }
     setOut(localOut);
   };
@@ -53,6 +53,6 @@ const Ex04 = () => {
       </Container>
     </>
   );
-};
+});
 
 export default Ex04;
