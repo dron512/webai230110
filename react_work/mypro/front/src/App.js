@@ -7,6 +7,7 @@ import Main from './components/Main';
 import FreeBoard from './components/FreeBoard';
 import Book from './components/Book';
 import FreeBoardInsert from './components/FreeBoardInsert';
+import FreeBoardView from './components/FreeBoardView';
 
 
 function App() {
@@ -76,6 +77,7 @@ function App() {
                     <Route path='/book' element={<Book/>}></Route>
                     <Route path='/freeBoard' element={<FreeBoard/>}></Route>
                     <Route path='/freeBoard/insert' element={<FreeBoardInsert/>}></Route>
+                    <Route path='/freeBoard/view/:idx' element={<FreeBoardView/>}></Route>
                 </Routes>
             </Container>
         </>

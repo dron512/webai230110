@@ -28,7 +28,7 @@ const FreeBoard = () => {
       <h1>FreeBoard</h1>
       <p>게시판</p>
       <Table striped bordered hover>
-        <thead>
+        <thead className='text-center'>
           <tr>
             <th>idx</th>
             <th>title</th>
@@ -39,9 +39,9 @@ const FreeBoard = () => {
         <tbody>
           {datas.map((obj) => {
             return (
-              <tr key={obj.idx}>
+              <tr key={obj.idx} className='text-center'>
                 <td>{obj.idx}</td>
-                <td>{obj.content}</td>
+                <td><Link to={`/freeboard/view/${obj.idx}`}>{obj.title}</Link></td>
                 <td>{obj.writer}</td>
                 <td>{obj.regdate}</td>
               </tr>
@@ -55,6 +55,7 @@ const FreeBoard = () => {
         style={{width:"6rem",padding:"0.5rem"}}>
           글쓰기
       </Nav.Link>
+      <div className='m-5'></div>
     </>
   );
 };
