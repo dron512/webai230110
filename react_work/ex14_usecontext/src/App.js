@@ -9,9 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <MyCss.Provider 
-          value={{ fontSize: '2rem', backgroundColor: 'red' }}
-          >
+      <MyCss.Provider value={{ fontSize: '2rem', backgroundColor: 'red' }}>
         <MyName.Provider value={{ name, setName }}>
           <Page />
         </MyName.Provider>

@@ -19,7 +19,8 @@ router.get('/freeboard', (req, res) => {
             THEN REPLACE(DATE_FORMAT(regdate, '%Y-%m-%d %p %h:%i'), 'PM', '오후')
             ELSE REPLACE(DATE_FORMAT(regdate, '%Y-%m-%d %p %h:%i'), 'AM', '오전')    
             END) AS regdate
-        FROM freeboard;
+        FROM freeboard 
+        order by idx desc;
         `,
     (e, rows, fields) => {
       if (e) console.log(e);
@@ -52,6 +53,28 @@ router.post('/freeboard/insert', (req, res) => {
   connection.end();
 });
 
+router.post('/freeboard/update', (req, res) => {
+  console.log(req.body);
+  const connection = mysql.createConnection({
+    host: 'localhost',
+    user: 'student',
+    password: 'student123',
+    database: 'mhpark',
+  });
+  connection.connect();
+  connection.query(
+    `UPDATE freeboard
+        SET title = ?,content=?, writer=?
+        WHERE idx = ?;`,
+    [req.body.title, req.body.content, req.body.writer,req.body.idx],
+    (e, rows, fields) => {
+      if (e) console.log(e);
+      res.send({ status: 'ok' });
+    }
+  );
+  connection.end();
+});
+
 router.post('/freeboard/view', (req, res) => {
   console.log(req.body);
   const connection = mysql.createConnection({
@@ -71,5 +94,26 @@ router.post('/freeboard/view', (req, res) => {
   );
   connection.end();
 });
+
+router.post('/freeboard/delete', (req, res) => {
+  console.log(req.body.idx);
+  const connection = mysql.createConnection({
+    host: 'localhost',
+    user: 'student',
+    password: 'student123',
+    database: 'mhpark',
+  });
+  connection.connect();
+  connection.query(
+    `delete from freeboard where idx = ?`,
+    [req.body.idx],
+    (e, rows, fields) => {
+      if (e) console.log(e);
+      res.send({ status: 'ok' });
+    }
+  );
+  connection.end();
+});
+
 
 module.exports = router;
