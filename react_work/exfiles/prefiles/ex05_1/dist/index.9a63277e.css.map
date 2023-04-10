@@ -1,0 +1,1 @@
+{"mappings":"AAAA","sources":["src/mystyle.css"],"sourcesContent":[".container{\r\n    border: 1px solid #ccc;\r\n    background-color: aliceblue;\r\n    padding: 1rem;\r\n    margin: 0.5rem;\r\n}"],"names":[],"version":3,"file":"index.9a63277e.css.map","sourceRoot":"/__parcel_source_root/"}

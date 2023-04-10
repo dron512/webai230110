@@ -1,0 +1,16 @@
+.container {
+  border: 1px solid #333;
+  margin: .5rem;
+  padding: .5rem;
+}
+
+li > div {
+  align-items: center;
+  display: flex;
+}
+
+li > div > button {
+  margin-left: .5rem;
+}
+
+/*# sourceMappingURL=index.78cc32dd.css.map */
