@@ -1,0 +1,512 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E473EB2D-12EF-439F-8F75-2B4F188B0511}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KBbooks</RootNamespace>
+    <AssemblyName>KBbooks</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>아이콘.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.21.1, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.21.8.0\lib\net462\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.6.0.0\lib\net461\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.6.0.0\lib\net461\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ui\admin\AdminAdd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\admin\AdminAdd.Designer.cs">
+      <DependentUpon>AdminAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\admin\AdminMember.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\admin\AdminMember.Designer.cs">
+      <DependentUpon>AdminMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\admin\AdminNoticeAdd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\admin\AdminNoticeAdd.Designer.cs">
+      <DependentUpon>AdminNoticeAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\admin\AdminNoticeManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\admin\AdminNoticeManage.Designer.cs">
+      <DependentUpon>AdminNoticeManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\admin\AdminReview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\admin\AdminReview.Designer.cs">
+      <DependentUpon>AdminReview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\admin\AdminSales.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\admin\AdminSales.Designer.cs">
+      <DependentUpon>AdminSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\admin\AdminSalesManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\admin\AdminSalesManage.Designer.cs">
+      <DependentUpon>AdminSalesManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\admin\AdminUpdate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\admin\AdminUpdate.Designer.cs">
+      <DependentUpon>AdminUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\MemberDelete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\MemberDelete.Designer.cs">
+      <DependentUpon>MemberDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\Best.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\Best.Designer.cs">
+      <DependentUpon>Best.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\Bookinfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\Bookinfo.Designer.cs">
+      <DependentUpon>Bookinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\Buy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\Buy.Designer.cs">
+      <DependentUpon>Buy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\BuyComplete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\BuyComplete.Designer.cs">
+      <DependentUpon>BuyComplete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\Cart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\Cart.Designer.cs">
+      <DependentUpon>Cart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\Login.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ui\MemberAdd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\MemberAdd.designer.cs">
+      <DependentUpon>MemberAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\MemberAddComplete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\MemberAddComplete.Designer.cs">
+      <DependentUpon>MemberAddComplete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\MyInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\MyInfo.Designer.cs">
+      <DependentUpon>MyInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\MyOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\MyOrder.Designer.cs">
+      <DependentUpon>MyOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\Newbook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\Newbook.Designer.cs">
+      <DependentUpon>Newbook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\NoticeContent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\NoticeContent.Designer.cs">
+      <DependentUpon>NoticeContent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\Recom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\Recom.Designer.cs">
+      <DependentUpon>Recom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\Search.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ui\Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="util\Book.cs" />
+    <Compile Include="util\Buy.cs" />
+    <Compile Include="util\DaoOra.cs" />
+    <Compile Include="util\Member.cs" />
+    <Compile Include="util\Notice.cs" />
+    <Compile Include="util\Order.cs" />
+    <Compile Include="util\Review.cs" />
+    <Compile Include="util\Sales.cs" />
+    <EmbeddedResource Include="ui\admin\AdminAdd.resx">
+      <DependentUpon>AdminAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\admin\AdminMember.resx">
+      <DependentUpon>AdminMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\admin\AdminNoticeAdd.resx">
+      <DependentUpon>AdminNoticeAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\admin\AdminNoticeManage.resx">
+      <DependentUpon>AdminNoticeManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\admin\AdminReview.resx">
+      <DependentUpon>AdminReview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\admin\AdminSales.resx">
+      <DependentUpon>AdminSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\admin\AdminSalesManage.resx">
+      <DependentUpon>AdminSalesManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\admin\AdminUpdate.resx">
+      <DependentUpon>AdminUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Best.resx">
+      <DependentUpon>Best.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Bookinfo.resx">
+      <DependentUpon>Bookinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Buy.resx">
+      <DependentUpon>Buy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\BuyComplete.resx">
+      <DependentUpon>BuyComplete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Cart.resx">
+      <DependentUpon>Cart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ui\MemberAdd.resx">
+      <DependentUpon>MemberAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\MemberAddComplete.resx">
+      <DependentUpon>MemberAddComplete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\MemberDelete.resx">
+      <DependentUpon>MemberDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\MyInfo.resx">
+      <DependentUpon>MyInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\MyOrder.resx">
+      <DependentUpon>MyOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Newbook.resx">
+      <DependentUpon>Newbook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\NoticeContent.resx">
+      <DependentUpon>NoticeContent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Recom.resx">
+      <DependentUpon>Recom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Oracle.DataAccess.Common.Configuration.Section.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Oracle.ManagedDataAccess.Client.Configuration.Section.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book_character_smile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book_character_smile1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_mushimegane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\검색창.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\검색창1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\검색창2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\마이페이지.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\카트.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\마이페이지_호버.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\카트_호버.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\다음.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\이전.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\숫자.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\상자.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\버튼.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\순위.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\버튼2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\버튼3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\구매텍스트.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\구매텍스트2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\구매텍스트1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\구매텍스트21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\버튼비활성.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\버리기.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\별1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\별2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\별3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\별4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\별5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\장바구니에담김.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\검색.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\그림1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\그림11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\별off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\별on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\버튼큰거.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\닫기.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\로고3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\로고31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\로고4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\스플래시2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asdsad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\스플래시3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\스플래시4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="아이콘.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Text.Json.6.0.0\build\System.Text.Json.targets" Condition="Exists('..\packages\System.Text.Json.6.0.0\build\System.Text.Json.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>이 프로젝트는 이 컴퓨터에 없는 NuGet 패키지를 참조합니다. 해당 패키지를 다운로드하려면 NuGet 패키지 복원을 사용하십시오. 자세한 내용은 http://go.microsoft.com/fwlink/?LinkID=322105를 참조하십시오. 누락된 파일은 {0}입니다.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Text.Json.6.0.0\build\System.Text.Json.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Text.Json.6.0.0\build\System.Text.Json.targets'))" />
+  </Target>
+</Project>

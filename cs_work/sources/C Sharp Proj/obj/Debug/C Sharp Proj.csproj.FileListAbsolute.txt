@@ -1,0 +1,314 @@
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\bin\Debug\C Sharp Proj.exe.config
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\bin\Debug\C Sharp Proj.exe
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\bin\Debug\C Sharp Proj.pdb
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.AssemblyReference.cache
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.SuggestedBindingRedirects.cache
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.Properties.Resources.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.GenerateResource.cache
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.CoreCompileInputs.cache
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.exe
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.pdb
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\bin\Debug\System.Buffers.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\bin\Debug\System.Memory.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\bin\Debug\System.Text.Json.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\bin\Debug\System.ValueTuple.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\bin\Debug\System.Buffers.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\bin\Debug\System.Memory.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\bin\Debug\System.Text.Json.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\bin\Debug\System.ValueTuple.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.MainForm.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.CopyComplete
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Bookinfo.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Best.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Search.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Home.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MemberAdd.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Login.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Newbook.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Buy.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Cart.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Recom.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MemberAddComplete.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.BuyComplete.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MyInfo.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MyOrder.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminSales.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminAdd.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminUpdate.resources
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.AssemblyReference.cache
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.SuggestedBindingRedirects.cache
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminAdd.resources
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminSales.resources
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminUpdate.resources
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Best.resources
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Bookinfo.resources
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Buy.resources
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.BuyComplete.resources
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Cart.resources
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Home.resources
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Login.resources
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.MainForm.resources
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.Properties.Resources.resources
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MemberAdd.resources
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MemberAddComplete.resources
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MyInfo.resources
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MyOrder.resources
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Newbook.resources
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Recom.resources
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Search.resources
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.GenerateResource.cache
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.CoreCompileInputs.cache
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\bin\Debug\C Sharp Proj.exe.config
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\bin\Debug\C Sharp Proj.exe
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\bin\Debug\C Sharp Proj.pdb
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\bin\Debug\System.Buffers.dll
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\bin\Debug\System.Memory.dll
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\bin\Debug\System.Text.Json.dll
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\bin\Debug\System.ValueTuple.dll
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\bin\Debug\System.Buffers.xml
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\bin\Debug\System.Memory.xml
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\bin\Debug\System.Text.Json.xml
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\bin\Debug\System.ValueTuple.xml
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.CopyComplete
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.exe
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.pdb
+C:\Users\firef\Desktop\PROJ\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MemberDelete.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\bin\Debug\C Sharp Proj.exe.config
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\bin\Debug\C Sharp Proj.exe
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\bin\Debug\C Sharp Proj.pdb
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\bin\Debug\System.Buffers.dll
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\bin\Debug\System.Memory.dll
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\bin\Debug\System.Text.Json.dll
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\bin\Debug\System.ValueTuple.dll
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\bin\Debug\System.Buffers.xml
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\bin\Debug\System.Memory.xml
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\bin\Debug\System.Text.Json.xml
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\bin\Debug\System.ValueTuple.xml
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.AssemblyReference.cache
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.SuggestedBindingRedirects.cache
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminAdd.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminSales.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminUpdate.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Best.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Bookinfo.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Buy.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.BuyComplete.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Cart.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Home.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Login.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.MainForm.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.Properties.Resources.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MemberAdd.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MemberAddComplete.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MemberDelete.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MyInfo.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MyOrder.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Newbook.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.NoticeContent.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.NoticeList.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Recom.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Search.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.GenerateResource.cache
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.CoreCompileInputs.cache
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.CopyComplete
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.exe
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.pdb
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminNoticeAdd.resources
+C:\Users\firef\Desktop\PROJ1231\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminNoticeManage.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\bin\Debug\C Sharp Proj.exe.config
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\bin\Debug\C Sharp Proj.exe
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\bin\Debug\C Sharp Proj.pdb
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\bin\Debug\System.Buffers.dll
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\bin\Debug\System.Memory.dll
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\bin\Debug\System.Text.Json.dll
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\bin\Debug\System.ValueTuple.dll
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\bin\Debug\System.Buffers.xml
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\bin\Debug\System.Memory.xml
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\bin\Debug\System.Text.Json.xml
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\bin\Debug\System.ValueTuple.xml
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.AssemblyReference.cache
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.SuggestedBindingRedirects.cache
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminAdd.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminNoticeAdd.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminNoticeManage.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminSales.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminUpdate.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Best.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Bookinfo.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Buy.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.BuyComplete.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Cart.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Home.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Login.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.MainForm.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.Properties.Resources.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MemberAdd.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MemberAddComplete.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MemberDelete.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MyInfo.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MyOrder.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Newbook.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.NoticeContent.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.NoticeList.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Recom.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Search.resources
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.GenerateResource.cache
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.CoreCompileInputs.cache
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.CopyComplete
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.exe
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.pdb
+C:\Users\firef\Desktop\PROJ1231-2\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminReview.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\bin\Debug\C Sharp Proj.exe.config
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\bin\Debug\C Sharp Proj.exe
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\bin\Debug\C Sharp Proj.pdb
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\bin\Debug\System.Buffers.dll
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\bin\Debug\System.Memory.dll
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\bin\Debug\System.Text.Json.dll
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\bin\Debug\System.ValueTuple.dll
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\bin\Debug\System.Buffers.xml
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\bin\Debug\System.Memory.xml
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\bin\Debug\System.Text.Json.xml
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\bin\Debug\System.ValueTuple.xml
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.AssemblyReference.cache
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.SuggestedBindingRedirects.cache
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminAdd.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminNoticeAdd.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminNoticeManage.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminReview.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminSales.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminUpdate.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Best.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Bookinfo.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Buy.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.BuyComplete.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Cart.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Home.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Login.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.MainForm.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.Properties.Resources.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MemberAdd.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MemberAddComplete.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MemberDelete.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MyInfo.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MyOrder.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Newbook.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.NoticeContent.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.NoticeList.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Recom.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Search.resources
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.GenerateResource.cache
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.CoreCompileInputs.cache
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.CopyComplete
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.exe
+C:\Users\firef\Desktop\PROJ0101\C Sharp Proj\C Sharp Proj\obj\Debug\C Sharp Proj.pdb
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\C Sharp Proj.exe.config
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\C Sharp Proj.exe
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\C Sharp Proj.pdb
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Buffers.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Memory.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Text.Json.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.ValueTuple.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Buffers.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Memory.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Text.Json.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.ValueTuple.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.AssemblyReference.cache
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.SuggestedBindingRedirects.cache
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminAdd.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminNoticeAdd.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminNoticeManage.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminReview.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminSales.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminUpdate.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Best.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Bookinfo.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Buy.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.BuyComplete.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Cart.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Home.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Login.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.MainForm.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.Properties.Resources.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MemberAdd.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MemberAddComplete.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MemberDelete.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MyInfo.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.MyOrder.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Newbook.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.NoticeContent.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Recom.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Search.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.GenerateResource.cache
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.CoreCompileInputs.cache
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C Sharp Proj.csproj.CopyComplete
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C Sharp Proj.exe
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C Sharp Proj.pdb
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminMember.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.admin.AdminSalesManage.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\C_Sharp_Proj.ui.Splash.resources

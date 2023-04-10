@@ -41,10 +41,12 @@ export const LeftDiv = styled.div`
   position: absolute;
   left: 10px;
   top: 10px;
-  width: 100px;
   height: 70px;
   background-color: white;
   color: #333;
+  &:hover{
+    cursor: pointer;
+  }
 `;
 
 export const RightDiv = styled.div`

@@ -1,0 +1,168 @@
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Release\KBbooks.exe.config
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Release\KBbooks.exe
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Release\KBbooks.pdb
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Release\Oracle.ManagedDataAccess.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Release\System.Buffers.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Release\System.Memory.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Release\System.Numerics.Vectors.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Release\System.Text.Encodings.Web.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Release\System.Text.Json.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Release\System.ValueTuple.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Release\System.Buffers.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Release\System.Memory.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Release\System.Numerics.Vectors.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Release\System.Text.Encodings.Web.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Release\System.Text.Json.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Release\System.ValueTuple.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.csproj.AssemblyReference.cache
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.csproj.SuggestedBindingRedirects.cache
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminAdd.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminMember.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminNoticeAdd.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminNoticeManage.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminReview.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminSales.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminSalesManage.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminUpdate.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.Best.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.Bookinfo.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.Buy.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.BuyComplete.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.Cart.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.Home.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.Login.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.MainForm.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.Properties.Resources.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.MemberAdd.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.MemberAddComplete.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.MemberDelete.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.MyInfo.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.MyOrder.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.Newbook.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.NoticeContent.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.Recom.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.Search.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.ui.Splash.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.csproj.GenerateResource.cache
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.csproj.CoreCompileInputs.cache
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.csproj.CopyComplete
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.exe
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Release\KBbooks.pdb
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Release\KBbooks.exe.config
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Release\KBbooks.exe
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Release\KBbooks.pdb
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Release\Oracle.ManagedDataAccess.dll
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Release\System.Buffers.dll
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Release\System.Memory.dll
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Release\System.Numerics.Vectors.dll
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Release\System.Text.Encodings.Web.dll
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Release\System.Text.Json.dll
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Release\System.ValueTuple.dll
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Release\System.Buffers.xml
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Release\System.Memory.xml
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Release\System.Numerics.Vectors.xml
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Release\System.Text.Encodings.Web.xml
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Release\System.Text.Json.xml
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Release\System.ValueTuple.xml
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.csproj.AssemblyReference.cache
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.csproj.SuggestedBindingRedirects.cache
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminAdd.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminMember.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminNoticeAdd.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminNoticeManage.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminReview.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminSales.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminSalesManage.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminUpdate.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.Best.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.Bookinfo.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.Buy.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.BuyComplete.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.Cart.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.Home.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.Login.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.MainForm.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.Properties.Resources.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.MemberAdd.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.MemberAddComplete.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.MemberDelete.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.MyInfo.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.MyOrder.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.Newbook.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.NoticeContent.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.Recom.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.Search.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.ui.Splash.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.csproj.CopyComplete
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.exe
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Release\KBbooks.pdb
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\bin\Release\KBbooks.exe.config
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\bin\Release\KBbooks.exe
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\bin\Release\KBbooks.pdb
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\bin\Release\Oracle.ManagedDataAccess.dll
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\bin\Release\System.Buffers.dll
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\bin\Release\System.Memory.dll
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\bin\Release\System.Numerics.Vectors.dll
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\bin\Release\System.Text.Encodings.Web.dll
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\bin\Release\System.Text.Json.dll
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\bin\Release\System.ValueTuple.dll
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\bin\Release\System.Buffers.xml
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\bin\Release\System.Memory.xml
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\bin\Release\System.Numerics.Vectors.xml
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\bin\Release\System.Text.Encodings.Web.xml
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\bin\Release\System.Text.Json.xml
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\bin\Release\System.ValueTuple.xml
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.csproj.AssemblyReference.cache
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.csproj.SuggestedBindingRedirects.cache
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminAdd.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminMember.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminNoticeAdd.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminNoticeManage.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminReview.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminSales.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminSalesManage.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.admin.AdminUpdate.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.Best.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.Bookinfo.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.Buy.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.BuyComplete.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.Cart.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.Home.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.Login.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.MainForm.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.Properties.Resources.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.MemberAdd.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.MemberAddComplete.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.MemberDelete.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.MyInfo.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.MyOrder.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.Newbook.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.NoticeContent.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.Recom.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.Search.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.ui.Splash.resources
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.csproj.CopyComplete
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.exe
+C:\Users\KB\Desktop\proj (2)\4조 팀프로젝트\소스\C Sharp Proj\obj\Release\KBbooks.pdb

@@ -1,0 +1,168 @@
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.csproj.AssemblyReference.cache
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.csproj.SuggestedBindingRedirects.cache
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.csproj.GenerateResource.cache
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.csproj.CoreCompileInputs.cache
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Buffers.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Memory.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Text.Json.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.ValueTuple.dll
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Buffers.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Memory.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Text.Json.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\System.ValueTuple.xml
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.csproj.CopyComplete
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\KBbooks.exe.config
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\KBbooks.exe
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\bin\Debug\KBbooks.pdb
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminAdd.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminMember.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminNoticeAdd.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminNoticeManage.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminReview.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminSales.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminSalesManage.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminUpdate.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.Best.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.Bookinfo.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.Buy.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.BuyComplete.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.Cart.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.Home.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.Login.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.MainForm.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.Properties.Resources.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.MemberAdd.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.MemberAddComplete.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.MemberDelete.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.MyInfo.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.MyOrder.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.Newbook.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.NoticeContent.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.Recom.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.Search.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.ui.Splash.resources
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.exe
+C:\Users\KB\Documents\Visual Studio 2022\BigDataCsharpOracle\C Sharp Proj 0102\C Sharp Proj\obj\Debug\KBbooks.pdb
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Debug\KBbooks.exe.config
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Debug\KBbooks.exe
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Debug\KBbooks.pdb
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Debug\System.Buffers.dll
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Debug\System.Memory.dll
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Debug\System.Text.Json.dll
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Debug\System.ValueTuple.dll
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Debug\System.Buffers.xml
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Debug\System.Memory.xml
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Debug\System.Text.Json.xml
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\bin\Debug\System.ValueTuple.xml
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.csproj.AssemblyReference.cache
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.csproj.SuggestedBindingRedirects.cache
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminAdd.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminMember.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminNoticeAdd.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminNoticeManage.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminReview.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminSales.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminSalesManage.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminUpdate.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.Best.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.Bookinfo.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.Buy.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.BuyComplete.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.Cart.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.Home.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.Login.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.MainForm.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.Properties.Resources.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.MemberAdd.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.MemberAddComplete.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.MemberDelete.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.MyInfo.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.MyOrder.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.Newbook.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.NoticeContent.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.Recom.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.Search.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.ui.Splash.resources
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.csproj.CopyComplete
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.exe
+C:\Users\KB\Desktop\proj (2)\KBbooks\C Sharp Proj\obj\Debug\KBbooks.pdb
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\bin\Debug\KBbooks.exe.config
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\bin\Debug\KBbooks.exe
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\bin\Debug\KBbooks.pdb
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\bin\Debug\System.Buffers.dll
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\bin\Debug\System.Memory.dll
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\bin\Debug\System.Text.Json.dll
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\bin\Debug\System.ValueTuple.dll
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\bin\Debug\System.Buffers.xml
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\bin\Debug\System.Memory.xml
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\bin\Debug\System.Text.Json.xml
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\bin\Debug\System.ValueTuple.xml
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminAdd.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminMember.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminNoticeAdd.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminNoticeManage.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminReview.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminSales.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminSalesManage.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.admin.AdminUpdate.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.Best.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.Bookinfo.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.Buy.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.BuyComplete.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.Cart.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.Home.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.Login.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.MainForm.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.Properties.Resources.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.MemberAdd.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.MemberAddComplete.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.MemberDelete.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.MyInfo.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.MyOrder.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.Newbook.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.NoticeContent.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.Recom.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.Search.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.ui.Splash.resources
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.csproj.GenerateResource.cache
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.csproj.CopyComplete
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.exe
+C:\Users\User\Desktop\김상목\프로젝트 참고자료\빅데이터 8차반 프로젝트\3. 멀티플랫폼서비스개발_C# 프로젝트\4조_멀티플랫폼서비스개발_프로젝트 파일\4조 팀프로젝트\소스\C Sharp Proj\obj\Debug\KBbooks.pdb

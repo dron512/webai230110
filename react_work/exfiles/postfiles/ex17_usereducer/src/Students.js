@@ -16,6 +16,7 @@ const datas = {
     { key: 3, name: '이길동', age: 40, bo: colorary[2] },
   ],
 };
+
 const reducer = (state, action) => {
   switch (action.type) {
     case 'add-data':
@@ -44,6 +45,7 @@ const reducer = (state, action) => {
       return state;
   }
 };
+
 const Students = () => {
   const [rdata, dispatch] = useReducer(reducer, datas);
   const nameRef = useRef();
