@@ -8,14 +8,22 @@ const cors = require('cors');
 const app = express();
 
 const freeBoardRouter = require("./routes/freeboard");
+const userRouter = require("./routes/user");
 const bookRouter = require("./routes/book");
 const memberRouter = require("./routes/member");
+
+// const userSequlize = require("./models/users");
+
+// userSequlize.createUser('김','길동',"dron512@naver.com");
+// userSequlize.createUser('이','길동',"dron512@naver.com");
+// userSequlize.createUser('박','길동',"dron512@naver.com");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 
 app.use("/", freeBoardRouter);
+app.use("/", userRouter);
 app.use("/", bookRouter);
 app.use("/", memberRouter);
 

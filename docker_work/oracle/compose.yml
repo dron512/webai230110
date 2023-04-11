@@ -3,9 +3,11 @@ version: '3'
 services: 
   oracle-db:
     container_name: myoracle
-    image: oracleinanutshell/oracle-xe-11g:latest
+    image: wnameless/oracle-xe-11g-r2:latest
     ports:
-      - 1521:1521
-      - 5500:5500
-
+      - 49161:1521
+      
+# 글꼴 Cascadia Code
 # docker exec -it oracle sqlplus
+# id = system
+# password = oracle

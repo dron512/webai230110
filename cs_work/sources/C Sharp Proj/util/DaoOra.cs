@@ -55,10 +55,10 @@ namespace KBbooks
             ORA_ADDR =
             "Data Source=(DESCRIPTION=(ADDRESS_LIST=" +
             "(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)" +
-            "(PORT=1521)))" +
+            "(PORT=49161)))" +
             "(CONNECT_DATA=(SERVER=DEDICATED)" +
             "(SERVICE_NAME=XE)));" +
-            $"User Id=team4;Password=1234;";
+            $"User Id=system;Password=oracle;";
             conn = new OracleConnection(ORA_ADDR);
             cmd = new OracleCommand();
             connectDB();
