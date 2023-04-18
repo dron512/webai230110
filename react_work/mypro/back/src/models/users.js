@@ -41,13 +41,42 @@ class UserSequlize {
       console.log(e);
     }
   };
-  selectUser = async () => {
+  selectUser = async (pagenum) => {
     try {
-      // select * from uesrs
+      let offset = 1;
+      const pageSize = 3;
+      if (pagenum !==undefined){
+        offset = (pagenum - 1) * pageSize;
+      }
       const users = await this.User.findAll({
+        offset: offset,
+        limit: pageSize,
         order: [['id', 'DESC']],
       });
-      console.log('조회한내용', users);
+      return users;
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
+  selectUserId = async (id) => {
+    try {
+      const users = await this.User.findAll({
+        where:{id}
+      });
+      // console.log('조회한내용', users);
+      return users;
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
+  updateUser = async (firstName,lastName,email,id) => {
+    try {
+      const users = await this.User.update(
+        {firstName:firstName,lastName:lastName,email:email},
+        {where:{id:id}}
+        );
       return users;
     } catch (e) {
       console.log(e);

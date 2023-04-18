@@ -11,6 +11,7 @@ import FreeBoardView from './components/freeboard/FreeBoardView';
 import FreeBoardUpdate from './components/freeboard/FreeBoardUpdate';
 import Member from './components/member/Member';
 import MemberInsert from './components/member/MemberInsert';
+import MemberUpdate from './components/member/MemberUpdate';
 
 
 function App() {
@@ -44,6 +45,9 @@ function App() {
 
                     <Route path='/member' element={<Member/>}></Route>
                     <Route path='/member/insert' element={<MemberInsert/>}></Route>
+
+                    <Route path='/member/update/:id' element={<MemberUpdate/>}></Route>
+
 
 
                     <Route path='/book' element={<Book/>}></Route>
