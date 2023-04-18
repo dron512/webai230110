@@ -9,6 +9,8 @@ import Book from './components/book/Book';
 import FreeBoardInsert from './components/freeboard/FreeBoardInsert';
 import FreeBoardView from './components/freeboard/FreeBoardView';
 import FreeBoardUpdate from './components/freeboard/FreeBoardUpdate';
+import Member from './components/member/Member';
+import MemberInsert from './components/member/MemberInsert';
 
 
 function App() {
@@ -39,6 +41,11 @@ function App() {
             <Container>
                 <Routes>
                     <Route path='/' element={<Main/>}></Route>
+
+                    <Route path='/member' element={<Member/>}></Route>
+                    <Route path='/member/insert' element={<MemberInsert/>}></Route>
+
+
                     <Route path='/book' element={<Book/>}></Route>
                     <Route path='/freeBoard' element={<FreeBoard/>}></Route>
                     <Route path='/freeBoard/insert' element={<FreeBoardInsert/>}></Route>

@@ -1,4 +1,5 @@
 const { Sequelize, DataTypes } = require('sequelize');
+const { Op } = require('sequelize');
 
 class UserSequlize {
   sequelize;
@@ -31,23 +32,27 @@ class UserSequlize {
         console.error('동기화 오류:', err);
       });
   }
-  createUser = async(firstName,lastName,email)=>{
-    try{
-        const user = await this.User.create({firstName,lastName,email})
-        console.log("행을 삽입했습니다",user);
-    }catch(e){
-        console.log(e);
+  createUser = async (firstName, lastName, email) => {
+    try {
+      //insert into users values (firstname,lastname,email)
+      const user = await this.User.create({ firstName, lastName, email });
+      console.log('행을 삽입했습니다', user);
+    } catch (e) {
+      console.log(e);
     }
-  }
-  selectUser = async()=>{
-    try{
-        const users = await this.User.findAll();
-        console.log("조회한내용",users);
-        return users;
-    }catch(e){
-        console.log(e);
+  };
+  selectUser = async () => {
+    try {
+      // select * from uesrs
+      const users = await this.User.findAll({
+        order: [['id', 'DESC']],
+      });
+      console.log('조회한내용', users);
+      return users;
+    } catch (e) {
+      console.log(e);
     }
-  }
+  };
 }
 const us = new UserSequlize();
 module.exports = us;

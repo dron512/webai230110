@@ -11,8 +11,13 @@ router.get('/users',async (req,res)=>{
     res.json(users);
 });
 
-router.get('/users/insert',async(req,res)=>{
-    await us.createUser('김씨','라스트','email');
+
+router.post('/users/insert',async(req,res)=>{
+    console.log(req.body);
+    await us.createUser(
+        req.body.firstName,
+        req.body.lastName,
+        req.body.email);
     res.json({"status":"ok"});
 })
 

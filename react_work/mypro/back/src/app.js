@@ -12,11 +12,15 @@ const userRouter = require("./routes/user");
 const bookRouter = require("./routes/book");
 const memberRouter = require("./routes/member");
 
+// UserSequlize 객체 생성을 하는데...
+// Constructor 의 내용을 실행합니다.
 // const userSequlize = require("./models/users");
 
-// userSequlize.createUser('김','길동',"dron512@naver.com");
-// userSequlize.createUser('이','길동',"dron512@naver.com");
-// userSequlize.createUser('박','길동',"dron512@naver.com");
+// userSequlize.createUser('김','길동',"aaa@naver.com");
+// userSequlize.createUser('이','길동',"bbb@naver.com");
+// userSequlize.createUser('박','길동',"ccc@naver.com");
+
+
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
