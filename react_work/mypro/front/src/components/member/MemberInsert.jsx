@@ -11,11 +11,17 @@ const MemberInsert = () => {
 
   const navigate = useNavigate();
   const insert = ()=>{
+    const token = localStorage.getItem('mytoken');
+    if(!token){
+       navigate('/signin');
+    }
     axios.post('http://localhost:5000/users/insert',{
         firstName:firstNameRef.current.value,
         lastName:lastNameRef.current.value,
         email:emailRef.current.value,
-        password:passwordRef.current.value
+        password:passwordRef.current.value,
+    },{
+      headers: {Authorization: token},
     })
     .then((result)=>{
         navigate('/member');

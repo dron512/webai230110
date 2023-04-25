@@ -18,8 +18,14 @@ const Member = () => {
     );
   }
   useEffect(() => {
+    const token = localStorage.getItem('mytoken');
+    if(!token){
+       navigate('/signin');
+    }
     axios
-      .get(`http://localhost:5000/users/${active}`)
+      .get(`http://localhost:5000/users/${active}`,{
+        headers: {Authorization: token},
+      })
       .then((result) => {
         setDatas(result.data);
       })

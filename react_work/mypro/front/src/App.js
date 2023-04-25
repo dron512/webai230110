@@ -12,6 +12,8 @@ import FreeBoardUpdate from './components/freeboard/FreeBoardUpdate';
 import Member from './components/member/Member';
 import MemberInsert from './components/member/MemberInsert';
 import MemberUpdate from './components/member/MemberUpdate';
+import SignIn from './components/login/SignIn';
+import SignUp from './components/login/SignUp';
 
 
 function App() {
@@ -55,6 +57,9 @@ function App() {
                     <Route path='/freeBoard/insert' element={<FreeBoardInsert/>}></Route>
                     <Route path='/freeBoard/update/:idx' element={<FreeBoardUpdate/>}></Route>
                     <Route path='/freeBoard/view/:idx' element={<FreeBoardView/>}></Route>
+
+                    <Route path='/signin' element={<SignIn/>}></Route>
+                    <Route path='/signup' element={<SignUp/>}></Route>
                 </Routes>
             </Container>
         </>

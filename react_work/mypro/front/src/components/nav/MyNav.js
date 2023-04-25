@@ -2,9 +2,18 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const MyNav = () => {
+
+  const navigate = useNavigate();
+
+  const moveSignIn = ()=>{
+    navigate('/signin');
+  }
+  const moveSingUp = ()=>{
+    navigate('/signup');
+  }
   return (
     <div>
       <Navbar style={{ backgroundColor: 'rgba(220,20,0,0.5)' }} expand="lg">
@@ -32,10 +41,10 @@ const MyNav = () => {
                 title="MEMBER"
                 id="basic-nav-dropdown"
               >
-                <NavDropdown.Item href="#action/3.1">
+                <NavDropdown.Item onClick={moveSignIn}>
                   <h4>SIGNIN</h4>
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item onClick={moveSingUp}>
                   <h4>SIGNUP</h4>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
