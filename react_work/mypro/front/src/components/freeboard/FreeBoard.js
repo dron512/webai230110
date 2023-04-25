@@ -4,7 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 const FreeBoard = () => {
-  const [datas, setDatas] = useState(null);
+  const [datas, setDatas] = useState([]);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -18,16 +18,11 @@ const FreeBoard = () => {
       .get(`http://localhost:5000/freeboard`, {
         headers: { Authorization: token },
       })
-      .then((data) => {
-        if(data.status===419){
-          // navigate('/signin')
-        }
-        else{
-          setDatas(data.data);
-        }
+      .then((result) => {
+        setDatas(result.data);
       })
-      .catch(e=>{
-        console.log(e);
+      .catch((e) => {
+        navigate('/signin');
       });
   }, []);
 

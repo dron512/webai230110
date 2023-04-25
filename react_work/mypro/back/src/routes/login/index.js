@@ -28,7 +28,7 @@ router.post('/login', async (req, res) => {
     },
     SECRET_KEY,
     {
-      expiresIn: '15m', // 만료시간 15분
+      expiresIn: '1m', // 만료시간 1분
       issuer: '토큰발급자',
     }
   );
