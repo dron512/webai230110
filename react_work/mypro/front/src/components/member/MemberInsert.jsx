@@ -7,6 +7,7 @@ const MemberInsert = () => {
   const firstNameRef = useRef();
   const lastNameRef = useRef();
   const emailRef = useRef();
+  const passwordRef = useRef();
 
   const navigate = useNavigate();
   const insert = ()=>{
@@ -14,6 +15,7 @@ const MemberInsert = () => {
         firstName:firstNameRef.current.value,
         lastName:lastNameRef.current.value,
         email:emailRef.current.value,
+        password:passwordRef.current.value
     })
     .then((result)=>{
         navigate('/member');
@@ -33,6 +35,10 @@ const MemberInsert = () => {
       <h2>Email</h2>
       <FloatingLabel controlId="floatingInput" label="email" className="mb-3">
         <Form.Control type="text" placeholder="email" ref={emailRef} />
+      </FloatingLabel>
+      <h2>Password</h2>
+      <FloatingLabel controlId="floatingInput" label="password" className="mb-3">
+        <Form.Control type="text" placeholder="password" ref={passwordRef} />
       </FloatingLabel>
       <Button onClick={insert} className="mt-3">
         저장

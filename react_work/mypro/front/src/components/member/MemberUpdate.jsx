@@ -11,11 +11,14 @@ const MemberUpdate = () => {
   const firstNameRef = useRef();
   const lastNameRef = useRef();
   const emailRef = useRef();
+  const passwordRef = useRef();
+
   const update = ()=>{
     axios.put('http://localhost:5000/users/update',{
         firstName:firstNameRef.current.value,
         lastName:lastNameRef.current.value,
         email:emailRef.current.value,
+        password:passwordRef.current.value,
         id:param.id
     })
     .then((result)=>{
@@ -28,6 +31,7 @@ const MemberUpdate = () => {
         firstName:firstNameRef.current.value,
         lastName:lastNameRef.current.value,
         email:emailRef.current.value,
+        password:passwordRef.current.value,
         id:param.id
     })
     .then((result)=>{
@@ -41,6 +45,7 @@ const MemberUpdate = () => {
         firstNameRef.current.value = result.data[0].firstName;
         lastNameRef.current.value = result.data[0].lastName;
         emailRef.current.value = result.data[0].email;
+        passwordRef.current.value = result.data[0].email;
     });
   },[]);
   return (
@@ -57,6 +62,10 @@ const MemberUpdate = () => {
       <h2>Email</h2>
       <FloatingLabel controlId="floatingInput" label="email" className="mb-3">
         <Form.Control type="text" placeholder="email" ref={emailRef} />
+      </FloatingLabel>
+      <h2>Password</h2>
+      <FloatingLabel controlId="floatingInput" label="password" className="mb-3">
+        <Form.Control type="text" placeholder="password" ref={passwordRef} />
       </FloatingLabel>
       <Button onClick={update} className="mt-3">
         수정

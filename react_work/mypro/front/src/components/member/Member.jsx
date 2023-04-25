@@ -64,6 +64,7 @@ const Member = () => {
             <th>firstName</th>
             <th>lastName</th>
             <th>email</th>
+            <th>password</th>
             <th>createdAt</th>
           </tr>
         </thead>
@@ -80,6 +81,7 @@ const Member = () => {
                 <td>{obj.firstName}</td>
                 <td>{obj.lastName}</td>
                 <td>{obj.email}</td>
+                <td>{obj.password}</td>
                 <td>{obj.createdAt}</td>
               </tr>
             );

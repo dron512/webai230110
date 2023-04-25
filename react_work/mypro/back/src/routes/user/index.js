@@ -24,7 +24,8 @@ router.post('/users/insert',async(req,res)=>{
     await us.createUser(
         req.body.firstName,
         req.body.lastName,
-        req.body.email);
+        req.body.email,
+        req.body.password);
     res.json({"status":"ok"});
 })
 
@@ -34,6 +35,7 @@ router.put("/users/update",async(req,res)=>{
         req.body.firstName,
         req.body.lastName,
         req.body.email,
+        req.body.password,
         req.body.id);
     res.json({"status":"ok"});
 })

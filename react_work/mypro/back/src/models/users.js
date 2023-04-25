@@ -23,8 +23,13 @@ class UserSequlize {
         allowNull: false,
         unique: true,
       },
+      password: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
     });
     this.User.sync()
+      // this.User.sync({force:true})
       .then(() => {
         console.log('User 모델이 데이터베이스와 동기화되었습니다.');
       })
@@ -32,10 +37,14 @@ class UserSequlize {
         console.error('동기화 오류:', err);
       });
   }
-  createUser = async (firstName, lastName, email) => {
+  createUser = async (firstName, lastName, email, password) => {
     try {
-      //insert into users values (firstname,lastname,email)
-      const user = await this.User.create({ firstName, lastName, email });
+      const user = await this.User.create({
+        firstName,
+        lastName,
+        email,
+        password,
+      });
       console.log('행을 삽입했습니다', user);
     } catch (e) {
       console.log(e);
@@ -45,7 +54,7 @@ class UserSequlize {
     try {
       let offset = 1;
       const pageSize = 3;
-      if (pagenum !==undefined){
+      if (pagenum !== undefined) {
         offset = (pagenum - 1) * pageSize;
       }
       const users = await this.User.findAll({
@@ -62,7 +71,7 @@ class UserSequlize {
   selectUserId = async (id) => {
     try {
       const users = await this.User.findAll({
-        where:{id}
+        where: { id },
       });
       // console.log('조회한내용', users);
       return users;
@@ -71,17 +80,29 @@ class UserSequlize {
     }
   };
 
-  updateUser = async (firstName,lastName,email,id) => {
+  updateUser = async (firstName, lastName, email, password, id) => {
     try {
       const users = await this.User.update(
-        {firstName:firstName,lastName:lastName,email:email},
-        {where:{id:id}}
-        );
+        { firstName, lastName, email, password },
+        { where: { id: id } }
+      );
       return users;
     } catch (e) {
       console.log(e);
     }
   };
+
+  findByEmail = async(email) =>{
+    try{
+      //select * from email = 'qwer';
+      const user = await this.User.findOne({
+        where : {email}
+      })
+      return user;
+    }catch(e){
+      console.log(e);
+    }
+  }
 }
 const us = new UserSequlize();
 module.exports = us;
