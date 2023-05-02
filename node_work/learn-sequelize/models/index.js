@@ -1,47 +1,26 @@
-'use strict';
+const Sequelize = require('sequelize');
+const User = require('./user');
+const Comment = require('./comment');
 
-const fs = require('fs'); 
-const path = require('path');
-
-const Sequelize = require('sequelize'); 
-
-const process = require('process');
-
-const basename = path.basename(__filename);
 const env = process.env.NODE_ENV || 'development';
-const config = require(__dirname + '/../config/config.json')['development'];
-
+const config = require('../config/config')[env];
 const db = {};
 
-let sequelize;
-if (config.use_env_variable) {
-  sequelize = new Sequelize(process.env[config.use_env_variable], config);
-} else {
-  sequelize = new Sequelize(config.database, config.username, config.password, config);
-}
-
-fs
-  .readdirSync(__dirname) // models 폴더 내용안에 있는 파일들과 폴더들을 가지고온다.
-  .filter(file => {
-    return (
-      file.indexOf('.') !== 0 &&
-      file !== basename &&
-      file.slice(-3) === '.js' &&
-      file.indexOf('.test.js') === -1
-    );
-  })
-  .forEach(file => {
-    const model = require(path.join(__dirname, file))(sequelize, Sequelize.DataTypes);
-    db[model.name] = model;
-  });
-
-Object.keys(db).forEach(modelName => {
-  if (db[modelName].associate) {
-    db[modelName].associate(db);
-  }
-});
+const sequelize = new Sequelize(config.database, config.username, config.password, config);
 
 db.sequelize = sequelize;
-db.Sequelize = Sequelize;
+
+db.User = User;
+db.Comment = Comment;
+
+// fs *.js model -> associate
+
+// 정의 하는 부분
+User.initiate(sequelize);
+Comment.initiate(sequelize);
+
+// 관계 형성을 하게 되는 부분
+User.associate(db);
+Comment.associate(db);
 
 module.exports = db;
