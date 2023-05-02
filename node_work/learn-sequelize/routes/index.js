@@ -1,11 +1,10 @@
-const exrpess = require('express');
-
+const exrpess = require("express");
+const {User} = require('../models');
 const router = exrpess.Router();
 
-router.get("/",(req,res)=>{
-    const aa = "aaa";
-    const test = [{aa:"a값"},{bb:"b값"}]
-    res.render("index",{aa,test});
-})
+router.get("/", async(req, res) => {
+  const users = await User.findAll();
+  res.render("sequelize", { users });
+});
 
 module.exports = router;

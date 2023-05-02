@@ -3,6 +3,9 @@ const path = require("path");
 const morgan = require("morgan"); // 사용자로 아직...
 const nunjucks = require("nunjucks"); //rendertemplate
 const { sequelize } = require("./models");
+const { User } = require("./models");
+const { Text } = require("./models");
+
 require("dotenv").config();
 
 const app = express();
@@ -19,6 +22,8 @@ sequelize
   .sync({ force: true })
   .then(() => {
     console.log("데이터베이스 생성");
+    User.create( {userName:'userName'});
+    Text.create( {message:'message'});
   })
   .catch((e) => {
     console.log(e);
@@ -42,6 +47,7 @@ app.use((req, res, next) => {
   error.status = 404;
   next(error);
 });
+
 
 app.use((err, req, res, next) => {
   res.locals.message = err.message;

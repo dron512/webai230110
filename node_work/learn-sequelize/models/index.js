@@ -1,12 +1,16 @@
 'use strict';
 
-const fs = require('fs'); // file 가지고 오는 라이브러리
-const path = require('path'); // path 경로를 가지고 오는 라이브러리
+const fs = require('fs'); 
+const path = require('path');
+
 const Sequelize = require('sequelize'); 
+
 const process = require('process');
+
 const basename = path.basename(__filename);
 const env = process.env.NODE_ENV || 'development';
-const config = require(__dirname + '/../config/config.json')[env];
+const config = require(__dirname + '/../config/config.json')['development'];
+
 const db = {};
 
 let sequelize;
@@ -17,7 +21,7 @@ if (config.use_env_variable) {
 }
 
 fs
-  .readdirSync(__dirname)
+  .readdirSync(__dirname) // models 폴더 내용안에 있는 파일들과 폴더들을 가지고온다.
   .filter(file => {
     return (
       file.indexOf('.') !== 0 &&

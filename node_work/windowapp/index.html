@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Hello World!</title>
+    <style>
+        p{
+            background-color: aqua;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <h2>안녕하세요</h2>
+    안녕하세요 <span id="node-version"></span>,
+    Chromium <span id="chrome-version"></span>,
+    and Electron <span id="electron-version"></span>.
+    <button id="doA">버튼</button>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, voluptates laboriosam. Earum, omnis? Quam deleniti dolor saepe harum exercitationem, quae, velit, sunt nihil iure reprehenderit quia? Ea, vel quo. Minima.</p>
+  </body>
+</html>
+<script>
+    document.getElementById('doA').click = ()=>{
+        alert('버튼 누름');
+    }
+</script>
