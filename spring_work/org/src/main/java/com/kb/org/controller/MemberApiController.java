@@ -3,10 +3,7 @@ package com.kb.org.controller;
 import com.kb.org.model.Member;
 import com.kb.org.repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -25,13 +22,14 @@ public class MemberApiController {
     }
 
     @PostMapping("insert")
-    public String insert(Member reqm){
+    public String insert(@RequestBody Member reqm){
+        System.out.println(reqm);
         memberRepository.save(reqm);
         return "insert됨";
     }
 
     @PostMapping("delete")
-    public String delete(Member reqm){
+    public String delete(@RequestBody Member reqm){
         Member dbMember = memberRepository.findById(reqm.getId()).orElse(null);
         if(dbMember == null) {
             return "삭제할행이 없다.";
@@ -43,7 +41,7 @@ public class MemberApiController {
     }
 
     @PostMapping("update")
-    public String update(Member reqm){
+    public String update(@RequestBody Member reqm){
         Member dbMember = memberRepository.findById(reqm.getId()).orElse(null);
         if(dbMember == null) {
             return "수정할행이 없다.";
