@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/webai230110/static/css/main.073c9b0a.css",
+    "main.js": "/webai230110/static/js/main.cdfbce66.js",
+    "static/js/787.080a856a.chunk.js": "/webai230110/static/js/787.080a856a.chunk.js",
+    "index.html": "/webai230110/index.html",
+    "main.073c9b0a.css.map": "/webai230110/static/css/main.073c9b0a.css.map",
+    "main.cdfbce66.js.map": "/webai230110/static/js/main.cdfbce66.js.map",
+    "787.080a856a.chunk.js.map": "/webai230110/static/js/787.080a856a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.cdfbce66.js"
+  ]
+}
