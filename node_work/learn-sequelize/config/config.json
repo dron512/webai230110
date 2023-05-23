@@ -14,8 +14,8 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
+    "username": "aws",
+    "password": "aws",
     "database": "database_production",
     "host": "aws",
     "dialect": "mysql"

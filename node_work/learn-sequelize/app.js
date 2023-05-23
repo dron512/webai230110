@@ -1,12 +1,16 @@
+require("dotenv").config();
+
 const express = require("express");
 const path = require("path");
 const morgan = require("morgan"); // 사용자로 아직...
-const nunjucks = require("nunjucks"); //rendertemplate
+const nunjucks = require("nunjucks"); //ejs
 const { sequelize } = require("./models");
 
-require("dotenv").config();
-
+// console.log(process.env);
 const app = express();
+
+// 회원가입... 게시판... 
+// 사진게시판
 
 app.set("port", process.env.port || 3001);
 app.set("view engine", "html");
