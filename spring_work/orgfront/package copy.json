@@ -2,7 +2,7 @@
   "name": "orgfront",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dron512.github.io/webai230110/",
+  "homepage": "https://dron512.github.io/webai230110",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
