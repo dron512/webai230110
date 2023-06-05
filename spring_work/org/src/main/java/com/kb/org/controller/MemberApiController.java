@@ -22,7 +22,7 @@ public class MemberApiController {
     }
 
     @PostMapping("insert")
-    public String insert(@RequestBody Member reqm){
+    public String insert(Member reqm){
         System.out.println(reqm);
         memberRepository.save(reqm);
         return "insert됨";

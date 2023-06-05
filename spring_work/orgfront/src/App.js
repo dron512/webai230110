@@ -10,6 +10,7 @@ import Board from './components/Board';
 function App() {
   return (
     <div className="App">
+      <h1>테스트11</h1>
       <Routes>
         <Route path='/' element={<SignInSide/>}/>
         <Route path='/main' element={<Main/>}/>

@@ -7,9 +7,9 @@ import lombok.ToString;
 
 import java.util.List;
 
+@Entity
 @Getter
 @Setter
-@Entity
 @ToString
 public class Member extends BaseTimeEntity{
 
