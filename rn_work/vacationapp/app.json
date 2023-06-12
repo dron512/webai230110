@@ -31,6 +31,9 @@
       "eas": {
         "projectId": "abf7a56f-c31b-42e4-bc1c-465a6ce49f03"
       }
+    },
+    "expo": {
+      "userInterfaceStyle": "automatic"
     }
   }
 }

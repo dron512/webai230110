@@ -13,8 +13,9 @@ import {
   ScrollView,
 } from "react-native";
 import axios from "axios";
+import DateCus from "./DateCus";
 
-const VacationWrite = () => {
+const VacationWrite = ({navigation}) => {
   const [birthdate, setBirthdate] = useState(new Date().toLocaleDateString());
   const [enddate, setEnddate] = useState(new Date().toLocaleDateString());
   const [fordate, setFordate] = useState("");
@@ -29,17 +30,17 @@ const VacationWrite = () => {
 
   const doSubmit = () => {
     const data = {
-      birthdate: "1985-05-11",
-      enddate: "2023-06-05",
-      fordate: "1",
-      month: "6",
-      reasondate: "2023-06-05",
-      startdate: "2023-06-05",
-      address: "대구 달서구",
-      classname: "웹과정",
-      name: "홍길동",
-      phonenumber: "010-9946-2662",
-      reason: "개인사유",
+      birthdate,
+      enddate,
+      fordate,
+      month,
+      reasondate,
+      startdate,
+      address,
+      classname,
+      name,
+      phonenumber,
+      reason,
     };
 
     axios
@@ -50,7 +51,11 @@ const VacationWrite = () => {
       })
       .then((success) => {
         Alert.alert("휴가계작성", "작성하였습니다.", [
-          { text: "확인", onPress: () => console.log("OK Pressed") },
+          {
+            text: "확인",
+            onPress: () =>
+              navigation.goBack(),
+          },
         ]);
       })
       .catch((err) => {
@@ -62,6 +67,7 @@ const VacationWrite = () => {
     <ScrollView>
       <View style={styles.inner}>
         <Text style={styles.header}>휴가계작성</Text>
+        <DateCus setStartdate={setStartdate}/>
         <Text style={styles.header}>
           ({parseInt(new Date().getMonth()) + 1})월 휴가계
         </Text>

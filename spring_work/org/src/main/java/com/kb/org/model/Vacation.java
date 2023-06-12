@@ -18,19 +18,15 @@ public class Vacation extends BaseTimeEntity{
     private Long id;
 
     private int month;
-    private LocalDate startdate;
-    private LocalDate enddate;
+    private String startdate;
+    private String enddate;
     private int fordate;
     private String classname;
     private String name;
-    private LocalDate birthdate;
+    private String birthdate;
     private String address;
     private String phonenumber;
     private String reason;
-
-    private LocalDate reasondate;
-
-
-
+    private String reasondate;
 
 }
