@@ -18,6 +18,7 @@ const FreeBoardInsert = () => {
       }),
       headers: {
         'Content-Type': 'application/json',
+        'authorization':localStorage.getItem('mytoken')
       },
     })
       .then((result) => result.json())
@@ -25,6 +26,9 @@ const FreeBoardInsert = () => {
         console.log(data);
         if(data.status==='ok')
             navigate('/freeboard');
+      })
+      .catch(err =>{
+        console.log(err);
       });
     
   };

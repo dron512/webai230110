@@ -13,6 +13,7 @@ const FreeBoardView = () => {
       }),
       headers: {
         'Content-Type': 'application/json',
+        'authorization':localStorage.getItem('mytoken')
       },
     })
       .then((result) => result.json())
@@ -30,6 +31,7 @@ const FreeBoardView = () => {
       }),
       headers: {
         'Content-Type': 'application/json',
+        'authorization':localStorage.getItem('mytoken')
       },
     })
       .then((result) => result.json())

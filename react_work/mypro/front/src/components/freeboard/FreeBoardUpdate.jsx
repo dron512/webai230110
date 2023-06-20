@@ -19,6 +19,7 @@ const FreeBoardUpdate = () => {
       }),
       headers: {
         'Content-Type': 'application/json',
+        'authorization':localStorage.getItem('mytoken')
       },
     })
       .then((result) => result.json())
@@ -45,6 +46,7 @@ const FreeBoardUpdate = () => {
       }),
       headers: {
         'Content-Type': 'application/json',
+        'authorization':localStorage.getItem('mytoken')
       },
     })
       .then((result) => result.json())
